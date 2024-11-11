@@ -1,0 +1,373 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "a16393b140bf4c58b6cd95b71ee423b4",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 4096,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "LCD_DATA",
+                    "width": 24,
+                    "probe_type": 1
+                },
+                {
+                    "name": "LCD_DE",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "LCD_DCLK",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "LCD_HS",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "LCD_VS",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "example_top",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "clk_pixel",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[0]",
+                        "net": "LCD_DATA[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[1]",
+                        "net": "LCD_DATA[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[2]",
+                        "net": "LCD_DATA[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[3]",
+                        "net": "LCD_DATA[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[4]",
+                        "net": "LCD_DATA[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[5]",
+                        "net": "LCD_DATA[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[6]",
+                        "net": "LCD_DATA[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[7]",
+                        "net": "LCD_DATA[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[8]",
+                        "net": "LCD_DATA[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[9]",
+                        "net": "LCD_DATA[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[10]",
+                        "net": "LCD_DATA[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[11]",
+                        "net": "LCD_DATA[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[12]",
+                        "net": "LCD_DATA[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[13]",
+                        "net": "LCD_DATA[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[14]",
+                        "net": "LCD_DATA[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[15]",
+                        "net": "LCD_DATA[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[16]",
+                        "net": "LCD_DATA[16]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[17]",
+                        "net": "LCD_DATA[17]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[18]",
+                        "net": "LCD_DATA[18]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[19]",
+                        "net": "LCD_DATA[19]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[20]",
+                        "net": "LCD_DATA[20]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[21]",
+                        "net": "LCD_DATA[21]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[22]",
+                        "net": "LCD_DATA[22]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[23]",
+                        "net": "LCD_DATA[23]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe1",
+                        "net": "LCD_DE",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "LCD_DCLK",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "LCD_HS",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4",
+                        "net": "LCD_VS",
+                        "path": []
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 4096,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "LCD_DATA",
+                    "width": 24,
+                    "clk_domain": "clk_pixel",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 23,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "LCD_DE",
+                    "width": 1,
+                    "clk_domain": "clk_pixel",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "LCD_DCLK",
+                    "width": 1,
+                    "clk_domain": "clk_pixel",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "LCD_HS",
+                    "width": 1,
+                    "clk_domain": "clk_pixel",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "LCD_VS",
+                    "width": 1,
+                    "clk_domain": "clk_pixel",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                }
+            ],
+            "top_module": "example_top",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

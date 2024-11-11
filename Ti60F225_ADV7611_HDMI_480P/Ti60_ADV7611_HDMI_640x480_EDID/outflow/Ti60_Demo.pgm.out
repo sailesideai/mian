@@ -1,0 +1,32 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2023.2.307.5.10 
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+Compiled: May 19 2024.
+
+Using source file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/work_pnr/Ti60_Demo.lbf"
+Generating HEX programming file for device "Ti60F225", family "Titanium"
+Using periphery source file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.lpf"
+Generating bit file: "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	bitstream_compression                    = on
+	oscillator_clock_divider                 = DIV2
+	enable_external_master_clock             = off
+	spi_low_power_mode                       = off
+	active_capture_clk_edge                  = negedge
+	enable_remote_update                     = off
+	release_tri_then_reset                   = on
+	enable_seu_crc_check                     = off
+	seu_mode                                 = automatic
+	seu_wait_interval                        = 0xFFFFFF
+	jtag_usercode                            = 0xFFFFFFFF
+	io_weak_pullup                           = on
+Finished generating "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.hex"
+Efinity Bitstream Generator took 10.4496 seconds.
+	Efinity Bitstream Generator took 3.73438 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 2.476 MB, end = 7.46 MB, delta = 4.984 MB
+	Efinity Bitstream Generator peak virtual memory usage = 138.044 MB
+Efinity Bitstream Generator resident set memory usage: begin = 7.9 MB, end = 16.704 MB, delta = 8.804 MB
+	Efinity Bitstream Generator peak resident set memory usage = 142.904 MB

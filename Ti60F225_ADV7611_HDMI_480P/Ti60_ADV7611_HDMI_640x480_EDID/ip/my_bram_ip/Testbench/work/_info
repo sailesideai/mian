@@ -1,0 +1,488 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Efinity/efinity_prj/Ti60_AR0135_HDMI_640480_To_1280x720/ip/my_bram_ip/Testbench
+T_opt
+!s110 1729593521
+VoXFD0:Q<6nL=`FG_:6Cmf1
+04 10 4 work my_bram_ip fast 0
+=3-6c02e0769da8-671780b0-3d1-e10
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vdp_test_pattern_rom
+Z2 !s110 1729592767
+!i10b 1
+!s100 ll9K6RP[ViD1mSDT23kNX3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iim@YDzkEbOE9EM^oB3QgY3
+R0
+Z4 w1726795851
+8dp_test_pattern_rom.v
+Fdp_test_pattern_rom.v
+!i122 5
+L0 2 234
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1729592766.000000
+Z8 !s107 bram_decompose.vh|bram_ini.vh|monitor_tdp.v|monitor_sdp.v|monitor_sp.v|dp_test_pattern_rom.v|tdp_test_pattern.v|signal_gen_tdp.v|signal_gen_sdp.v|signal_gen_sprom.v|signal_gen_sp.v|efx_dpram_5k.v|efx_dpram10.v|efx_ram10.v|efx_ram_5k.v|my_bram_ip.v|
+Z9 !s90 -reportprogress|300|-f|flist|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7
+R2
+!i10b 1
+!s100 39;77c;?0V^LGZA9>lmCH0
+R3
+IGoJ[k2hWk39lidL^3HSIl1
+R0
+R4
+Fbram_ini.vh
+!i122 5
+L0 656 471
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vdpram_wrapper_mwm_53cbbce291d545bfba3aa82564aaf8d7
+R2
+!i10b 1
+!s100 0hWEBbUJEW?abKT;W;R;X2
+R3
+IfiA60icQhMoF^TFMRO^M80
+R0
+R4
+Fbram_decompose.vh
+!i122 5
+L0 970 984
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vefx_bram_53cbbce291d545bfba3aa82564aaf8d7
+R2
+!i10b 1
+!s100 HZhI;9O6R`b2cP[7jZIJ30
+R3
+I2^E3lZ6SjbMRJ<geS<_EL2
+R0
+Z11 w1729592767
+Z12 8my_bram_ip.v
+Z13 Fmy_bram_ip.v
+!i122 5
+L0 146 470
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vEFX_DPRAM10
+R2
+!i10b 1
+!s100 [=48_gA]MTDUVB[5PY7=:3
+R3
+I]o8jgZTC^mm39gOio7h2a0
+R0
+R4
+8efx_dpram10.v
+Fefx_dpram10.v
+!i122 5
+L0 34 498
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+n@e@f@x_@d@p@r@a@m10
+vEFX_DPRAM_5K
+R2
+!i10b 1
+!s100 UgL4l<cQzKUPfzDRO[_RL2
+R3
+InEC1GbW]5O6J?o<WfBmZ21
+R0
+R4
+8efx_dpram_5k.v
+Fefx_dpram_5k.v
+!i122 5
+L0 34 348
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+n@e@f@x_@d@p@r@a@m_5@k
+vEFX_RAM10
+R2
+!i10b 1
+!s100 d;LU^USl<ZlOXNfT17ZRM2
+R3
+IaOkMFLNnaMdBS]<bNnJ]C1
+R0
+R4
+8efx_ram10.v
+Fefx_ram10.v
+!i122 5
+L0 36 383
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+n@e@f@x_@r@a@m10
+vEFX_RAM_5K
+R2
+!i10b 1
+!s100 Q5KkjGQoDXKW`eT^coBaF1
+R3
+IWz4X]]RDg2aTB=Qk3JZK:3
+R0
+R4
+8efx_ram_5k.v
+Fefx_ram_5k.v
+!i122 5
+L0 36 230
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+n@e@f@x_@r@a@m_5@k
+vefx_true_dual_port_ram_53cbbce291d545bfba3aa82564aaf8d7
+R2
+!i10b 1
+!s100 4bZ214A9BY^lAkUVJmAeY2
+R3
+IMg2Jm25?ePdLbEQeKKZ5k2
+R0
+R11
+R12
+R13
+!i122 5
+L0 1871 237
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vmonitor_sdp
+R2
+!i10b 1
+!s100 5bUDT>h_mY0a3>GK0<k^I2
+R3
+I[QR2Y_4[:hX6?;<8Vik2E3
+R0
+R4
+8monitor_sdp.v
+Fmonitor_sdp.v
+!i122 5
+L0 2 310
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vmonitor_sp
+R2
+!i10b 1
+!s100 LOPh0dRfl[2;4?fdP0_f=1
+R3
+I7=9cc7412BNXl9UoA>YCW0
+R0
+R4
+8monitor_sp.v
+Fmonitor_sp.v
+!i122 5
+L0 2 245
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vmonitor_tdp
+R2
+!i10b 1
+!s100 _k;GQfH7CCa00f@EaKjP52
+R3
+I5R25LZ06dYZkdI4b1D@_81
+R0
+R4
+8monitor_tdp.v
+Fmonitor_tdp.v
+!i122 5
+L0 3 508
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vmy_bram_ip
+R2
+!i10b 1
+!s100 Jk^QTn[XSfzU3obb2[MK<3
+R3
+In0oMXSAcPA9IDL7ajik:90
+R0
+R4
+R12
+R13
+!i122 5
+L0 49 96
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vsignal_gen_sdp
+R2
+!i10b 1
+!s100 1e6^:O<IXL9nlb_XMCMG40
+R3
+I=aB1cYIU6]^hYJ>g]i1Hh2
+R0
+R4
+8signal_gen_sdp.v
+Fsignal_gen_sdp.v
+!i122 5
+L0 2 461
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vsignal_gen_sp
+R2
+!i10b 1
+!s100 4GQlIMfF^hidHojh:`QEe3
+R3
+I@RjA5Ba8OoT9U3jWjObnA1
+R0
+R4
+8signal_gen_sp.v
+Fsignal_gen_sp.v
+!i122 5
+L0 2 379
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vsignal_gen_sprom
+R2
+!i10b 1
+!s100 _idRBgK9P3k@FPlULgBBX2
+R3
+ICSV`hdfe=nP]moQ1;`;ed3
+R0
+R4
+8signal_gen_sprom.v
+Fsignal_gen_sprom.v
+!i122 5
+L0 2 325
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vsignal_gen_tdp
+R2
+!i10b 1
+!s100 0ooH?B??MRIa_eOMR7kPC3
+R3
+I^ZUSh[j:e3z`R9`BGA>Rb2
+R0
+R4
+8signal_gen_tdp.v
+Fsignal_gen_tdp.v
+!i122 5
+L0 2 242
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vtb
+Z14 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+DXx4 work 9 tb_v_unit 0 22 ?NdW25OFV16@hZo6m;6dK0
+Z15 !s110 1729592766
+R5
+r1
+!s85 0
+!i10b 1
+!s100 cRZECN<;`H;ERf@;c>WNh3
+IjV0TnHB1R<LmRj3AbV0kj2
+!s105 tb_v_unit
+S1
+R0
+R4
+Z16 8tb.v
+Z17 Ftb.v
+!i122 4
+L0 5 3815
+R6
+31
+R7
+Z18 !s107 my_bram_ip_define.vh|tb.v|
+Z19 !s90 -reportprogress|300|-sv|tb.v|
+!i113 0
+Z20 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xtb_v_unit
+R14
+R15
+V?NdW25OFV16@hZo6m;6dK0
+r1
+!s85 0
+!i10b 1
+!s100 8<E^Gz<1I;Hj6;A<Xh=l^1
+I?NdW25OFV16@hZo6m;6dK0
+!i103 1
+S1
+R0
+R4
+R16
+R17
+Fmy_bram_ip_define.vh
+!i122 4
+L0 46 0
+R6
+31
+R7
+R18
+R19
+!i113 0
+R20
+R1
+vtdp_test_pattern
+R2
+!i10b 1
+!s100 o1ilEkh212URagESziW:S1
+R3
+IYSDOB6@Re9j[g4M5_bIeM3
+R0
+R4
+8tdp_test_pattern.v
+Ftdp_test_pattern.v
+!i122 5
+L0 2 312
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

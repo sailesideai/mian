@@ -1,0 +1,1041 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.2.307.5.10
+[EFX-0000 INFO] Compiled: May 19 2024.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+INFO: Read project database "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.xml"
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v' (VERI-1482)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(417): INFO: undeclared symbol 'lcd_b7_0_o', assumed default net type 'wire' (VERI-2561)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(418): INFO: undeclared symbol 'lcd_g7_0_o', assumed default net type 'wire' (VERI-2561)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(419): INFO: undeclared symbol 'lcd_r7_0_o', assumed default net type 'wire' (VERI-2561)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(421): INFO: undeclared symbol 'lcd_b7_0_oe', assumed default net type 'wire' (VERI-2561)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(422): INFO: undeclared symbol 'lcd_g7_0_oe', assumed default net type 'wire' (VERI-2561)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(423): INFO: undeclared symbol 'lcd_r7_0_oe', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\ddr_rw_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\cmos_i2c\i2c_timing_ctrl_16bit.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\cmos_i2c\CMOS_Capture_RAW_Gray.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\cmos_i2c\I2C_MT9M001_Gray_Config.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_para.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_driver.v' (VERI-1482)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_driver.v(37): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src/lcd_para.v' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_driver.v(37): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_driver.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\hdmi_tx_ip.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\encode.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\serdes_4b_10to1.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\cmos_i2c\I2C_SC130GS_12801024_4Lanes_Config.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\PWMLite.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_display.v' (VERI-1482)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_display.v(48): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src/lcd_para.v' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_display.v(48): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_display.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\dsi\dsi_init.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\Sensor_Image_XYCrop.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\cmos_i2c\i2c_timing_ctrl_reg16_dat16.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\cmos_i2c\I2C_AR0135_1280720_Config.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\AXI4_AWARMux.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lvds\LCDDual2LVDS.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\tmds_channel.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\rgb2dvi.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\adv7611\I2C_ADV7611_Config.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\adv7611\i2c_timing_ctrl_reg8_dat8_wronly.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\isp\bilinear_interpolation.v' (VERI-1482)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\isp\bilinear_interpolation.v(72): WARNING: parameter 'IDLE' becomes localparam in 'bilinear_interpolation' with formal parameter declaration list (VERI-1199)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\isp\bilinear_interpolation.v(73): WARNING: parameter 'ADD' becomes localparam in 'bilinear_interpolation' with formal parameter declaration list (VERI-1199)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\isp\bilinear_interpolation.v(74): WARNING: parameter 'SUB' becomes localparam in 'bilinear_interpolation' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\FrameBoundCrop.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\case_data\x_ratio_case.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\case_data\y_ratio_case.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\key_counter_scan.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO\W0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO\R0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\dsi_tx\dsi_tx.sv' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\csi_rx\csi_rx.sv' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v' (VERI-1482)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(266): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(266): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(581): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(581): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(1575): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(1575): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(1829): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(1829): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(2132): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(2132): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(2582): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(2582): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_8\W0_FIFO_8.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_64\W0_FIFO_64.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\FIFO_W48R24\FIFO_W48R24.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_8\R0_FIFO_8.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_16\R0_FIFO_16.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_128\W0_FIFO_128.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v' (VERI-1482)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(777): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip/bram_ini.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(777): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(1049): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip/bram_decompose.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(1049): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'dpram_wrapper_mwm_53cbbce291d545bfba3aa82564aaf8d7' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio\bram_y_ratio.v' (VERI-1482)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio\bram_y_ratio.v(747): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio/bram_ini.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio\bram_y_ratio.v(747): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio\bram_y_ratio.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio\bram_y_ratio.v(974): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio/bram_decompose.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio\bram_y_ratio.v(974): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio\bram_y_ratio.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_y_ratio/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'bram_wrapper_mwm_29f5b88bd32f40de9b4ad9e0c41a54ca' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio\bram_x_ratio.v' (VERI-1482)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio\bram_x_ratio.v(747): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio/bram_ini.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio\bram_x_ratio.v(747): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio\bram_x_ratio.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio\bram_x_ratio.v(974): INFO: analyzing included file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio/bram_decompose.vh' (VERI-1328)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio\bram_x_ratio.v(974): INFO: back to file 'C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio\bram_x_ratio.v' (VERI-2320)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\bram_x_ratio/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'bram_wrapper_mwm_df3514bca56d47498eab3aff58bc0e47' with formal parameter declaration list (VERI-1199)
+INFO: Analysis took 0.690857 seconds.
+INFO: 	Analysis took 0.234375 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 56.364 MB, end = 73.952 MB, delta = 17.588 MB
+INFO: 	Analysis peak virtual memory usage = 73.952 MB
+INFO: Analysis resident set memory usage: begin = 59.824 MB, end = 79.012 MB, delta = 19.188 MB
+INFO: 	Analysis peak resident set memory usage = 79.012 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(573): WARNING: port 'cal_fail_log' remains unconnected for this instance (VERI-1927)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(637): WARNING: port 'i2c_rdata' remains unconnected for this instance (VERI-1927)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(998): WARNING: port 'axi_awid' remains unconnected for this instance (VERI-1927)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(1107): WARNING: port 'TMDS_Clk_p' remains unconnected for this instance (VERI-1927)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(6): INFO: compiling module 'example_top' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(405): WARNING: expression size 32 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(417): WARNING: expression size 8 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(418): WARNING: expression size 8 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(419): WARNING: expression size 8 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(421): WARNING: expression size 8 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(422): WARNING: expression size 8 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(423): WARNING: expression size 8 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(182): WARNING: port 'wr_busy' remains unconnected for this instance (VERI-1927)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(182): WARNING: port 'wr_data' is not connected on this instance (VERI-2435)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(49): INFO: compiling module 'DdrCtrl' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(1830): INFO: compiling module 'efx_ddr3_soft_controller_fbd3d233390c485cb3263c0efc0a7981' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: port '**' remains unconnected for this instance (VERI-1927)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(2902): INFO: compiling module 'efx_fifo_top_fbd3d233390c485cb3263c0efc0a7981_renamed_due_excessive_length_1' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3194): INFO: compiling module 'efx_fifo_ram_fbd3d233390c485cb3263c0efc0a7981(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3231): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3680): INFO: compiling module 'efx_fifo_ctl_fbd3d233390c485cb3263c0efc0a7981(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3956): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3957): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(4076): INFO: compiling module 'efx_fifo_bin2gray_fbd3d233390c485cb3263c0efc0a7981(WIDTH=7)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3601): INFO: compiling module 'efx_fifo_datasync_fbd3d233390c485cb3263c0efc0a7981(STAGE=2,WIDTH=7)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=7)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=6)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=4)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=3)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=2)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: net '**' does not have a driver (VDB-1002)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: input port '**' remains unconnected for this instance (VDB-1053)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): WARNING: input port '**' is not connected on this instance (VDB-1013)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v(116): WARNING: input port 'wr_data[127]' is not connected on this instance (VDB-1013)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(540): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_aid' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(547): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_wid' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(556): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_bid' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(562): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_rid' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\AXI4_AWARMux.v(11): INFO: compiling module 'AXI4_AWARMux(AID_LEN=4)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\AXI4_AWARMux.v(90): WARNING: expression size 2 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\adv7611\i2c_timing_ctrl_reg8_dat8_wronly.v(31): INFO: compiling module 'i2c_timing_ctrl(CLK_FREQ=24000000,I2C_FREQ=50000)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\adv7611\I2C_ADV7611_Config.v(18): INFO: compiling module 'I2C_ADV7611_Config' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\cmos_i2c\i2c_timing_ctrl_reg16_dat16.v(33): INFO: compiling module 'i2c_timing_ctrl_reg16_dat16(CLK_FREQ=96000000,I2C_FREQ=50000)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\cmos_i2c\I2C_AR0135_1280720_Config.v(17): INFO: compiling module 'I2C_AR0135_1280720_Config' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(732): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(733): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\PWMLite.v(10): INFO: compiling module 'PWMLite' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\PWMLite.v(22): WARNING: expression size 8 truncated to fit in target size 7 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\isp\bilinear_interpolation.v(17): INFO: compiling module 'bilinear_interpolation(C_SRC_IMG_WIDTH=640,C_SRC_IMG_HEIGHT=480)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\case_data\x_ratio_case.v(1): INFO: compiling module 'x_ratio_case' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\case_data\y_ratio_case.v(1): INFO: compiling module 'y_ratio_case' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\isp\bilinear_interpolation.v(166): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(142): WARNING: port 'clk' is not connected on this instance (VERI-2435)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(49): INFO: compiling module 'my_bram_ip' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(146): INFO: compiling module 'efx_bram_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_2' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(1871): INFO: compiling module 'efx_true_dual_port_ram_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_3' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(970): INFO: compiling module 'dpram_wrapper_mwm_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_4' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(1090): WARNING: expression size 32 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(1091): WARNING: expression size 32 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(656): INFO: compiling module 'dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_5' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10_renamed_due_excessive_length_6' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(656): INFO: compiling module 'dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_7' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(656): INFO: compiling module 'dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_8' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(656): INFO: compiling module 'dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_9' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(131): WARNING: input port 'clk' remains unconnected for this instance (VDB-1053)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\my_bram_ip\my_bram_ip.v(131): WARNING: input port 'addr[11]' is not connected on this instance (VDB-1013)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(109): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(49): INFO: compiling module 'asyn_fifo' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(390): INFO: compiling module 'efx_fifo_top_567bbcdf972041248a4b56f10a3b95b9_renamed_due_excessive_length_10' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(682): INFO: compiling module 'efx_fifo_ram_567bbcdf972041248a4b56f10a3b95b9(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=8192,RD_DEPTH=8192,WDATA_WIDTH=11,RDATA_WIDTH=11,WADDR_WIDTH=13,RADDR_WIDTH=13,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(719): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(1000): INFO: compiling module 'efx_fifo_ctl_567bbcdf972041248a4b56f10a3b95b9_renamed_due_excessive_length_11' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(1276): WARNING: expression size 32 truncated to fit in target size 14 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(1277): WARNING: expression size 32 truncated to fit in target size 14 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(301): INFO: compiling module 'efx_fifo_bin2gray_567bbcdf972041248a4b56f10a3b95b9(WIDTH=14)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(130): INFO: compiling module 'efx_fifo_datasync_567bbcdf972041248a4b56f10a3b95b9(STAGE=2,WIDTH=14)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=14)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=13)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=12)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=11)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=10)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=9)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=8)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=7)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=6)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=4)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=3)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(213): INFO: compiling module 'efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=2)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(104): WARNING: actual bit length 13 differs from formal bit length 14 for port 'wr_datacount_o' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(107): WARNING: actual bit length 13 differs from formal bit length 14 for port 'rd_datacount_o' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v(89): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v(2): INFO: compiling module 'axi4_ctrl(C_ID_LEN=4,C_RD_END_ADDR=8294400,C_W_WIDTH=32,C_R_WIDTH=32)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v(93): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v(115): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v(116): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v(198): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v(240): WARNING: expression size 2 truncated to fit in target size 1 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v(259): WARNING: expression size 25 truncated to fit in target size 24 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(99): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(49): INFO: compiling module 'W0_FIFO_32' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(380): INFO: compiling module 'efx_fifo_top_8f4a0410a9734101bcd9f40726041cb5_renamed_due_excessive_length_12' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(672): INFO: compiling module 'efx_fifo_ram_8f4a0410a9734101bcd9f40726041cb5(MODE="FWFT",WR_DEPTH=2048,WDATA_WIDTH=32,RDATA_WIDTH=128,WADDR_WIDTH=11,OUTPUT_REG=0)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(709): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(990): INFO: compiling module 'efx_fifo_ctl_8f4a0410a9734101bcd9f40726041cb5_renamed_due_excessive_length_13' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(1266): WARNING: expression size 32 truncated to fit in target size 12 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(1267): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(291): INFO: compiling module 'efx_fifo_bin2gray_8f4a0410a9734101bcd9f40726041cb5(WIDTH=10)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(120): INFO: compiling module 'efx_fifo_datasync_8f4a0410a9734101bcd9f40726041cb5(STAGE=3,WIDTH=10)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=10)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=9)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=8)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=7)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=6)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=4)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=3)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=2)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(291): INFO: compiling module 'efx_fifo_bin2gray_8f4a0410a9734101bcd9f40726041cb5(WIDTH=12)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(120): INFO: compiling module 'efx_fifo_datasync_8f4a0410a9734101bcd9f40726041cb5(STAGE=3,WIDTH=12)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=12)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(203): INFO: compiling module 'efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=11)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(94): WARNING: actual bit length 11 differs from formal bit length 12 for port 'wr_datacount_o' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(97): WARNING: actual bit length 9 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v(84): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(109): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(49): INFO: compiling module 'R0_FIFO_32' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(390): INFO: compiling module 'efx_fifo_top_68110a1dc4f14fed96e8178b3ae9acd4_renamed_due_excessive_length_14' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(682): INFO: compiling module 'efx_fifo_ram_68110a1dc4f14fed96e8178b3ae9acd4(FAMILY="TITANIUM",MODE="FWFT",RD_DEPTH=2048,WDATA_WIDTH=128,RDATA_WIDTH=32,RADDR_WIDTH=11,OUTPUT_REG=0)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(719): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(1000): INFO: compiling module 'efx_fifo_ctl_68110a1dc4f14fed96e8178b3ae9acd4_renamed_due_excessive_length_15' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(1270): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(1271): WARNING: expression size 32 truncated to fit in target size 12 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(301): INFO: compiling module 'efx_fifo_bin2gray_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=12)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(130): INFO: compiling module 'efx_fifo_datasync_68110a1dc4f14fed96e8178b3ae9acd4(STAGE=3,WIDTH=12)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=12)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=11)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=10)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=9)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=8)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=7)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=6)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=4)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=3)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(213): INFO: compiling module 'efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=2)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(301): INFO: compiling module 'efx_fifo_bin2gray_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=10)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(130): INFO: compiling module 'efx_fifo_datasync_68110a1dc4f14fed96e8178b3ae9acd4(STAGE=3,WIDTH=10)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(104): WARNING: actual bit length 9 differs from formal bit length 10 for port 'wr_datacount_o' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(107): WARNING: actual bit length 11 differs from formal bit length 12 for port 'rd_datacount_o' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v(89): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v(466): WARNING: expression size 17 truncated to fit in target size 16 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\axi\axi4_ctrl.v(576): WARNING: expression size 25 truncated to fit in target size 24 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(970): WARNING: actual bit length 32 differs from formal bit length 4 for port 'axi_bid' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(971): WARNING: actual bit length 32 differs from formal bit length 2 for port 'axi_bresp' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(972): WARNING: actual bit length 32 differs from formal bit length 1 for port 'axi_bvalid' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(982): WARNING: actual bit length 32 differs from formal bit length 2 for port 'axi_rresp' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(997): WARNING: actual bit length 8 differs from formal bit length 32 for port 'tp_o' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(1012): WARNING: expression size 32 truncated to fit in target size 24 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_driver.v(39): INFO: compiling module 'lcd_driver' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\lcd_driver.v(145): WARNING: expression size 14 truncated to fit in target size 12 (VERI-1209)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\rgb2dvi.v(7): INFO: compiling module 'rgb2dvi(ENABLE_OSERDES=0)' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\tmds_channel.v(4): INFO: compiling module 'tmds_channel' (VERI-1018)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\rgb2dvi.v(50): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\rgb2dvi.v(52): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\rgb2dvi.v(58): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\rgb2dvi.v(60): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\rgb2dvi.v(66): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\src\hdmi_ip\rgb2dvi.v(68): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(1089): WARNING: actual bit length 32 differs from formal bit length 1 for port 'oe_i' (VERI-1330)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(390): WARNING: net 'w_dev_index_o[7]' does not have a driver (VDB-1002)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(391): WARNING: net 'w_dev_cmd_o[7]' does not have a driver (VDB-1002)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(392): WARNING: net 'w_dev_wdata_o[31]' does not have a driver (VDB-1002)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(393): WARNING: net 'w_dev_wvalid_o' does not have a driver (VDB-1002)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(397): WARNING: net 'w_spi_ssn_o' does not have a driver (VDB-1002)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(398): WARNING: net 'w_spi_data_o[3]' does not have a driver (VDB-1002)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(415): WARNING: net 'w_lcd_b_o[7]' does not have a driver (VDB-1002)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(617): WARNING: net 'i2c_config_index[8]' does not have a driver (VDB-1002)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(890): WARNING: input port 'per_img_gray[7]' remains unconnected for this instance (VDB-1053)
+C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\example_top.v(1082): WARNING: input port 'SerialClk' is not connected on this instance (VDB-1013)
+INFO: Elaboration took 0.535678 seconds.
+INFO: 	Elaboration took 0.109375 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 73.952 MB, end = 167.92 MB, delta = 93.968 MB
+INFO: 	Elaboration peak virtual memory usage = 167.92 MB
+INFO: Elaboration resident set memory usage: begin = 79.024 MB, end = 170.576 MB, delta = 91.552 MB
+INFO: 	Elaboration peak resident set memory usage = 170.576 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(65): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(100): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(156): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(209): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(322): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(394): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(499): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(561): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.029155 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 170.504 MB, end = 159.192 MB, delta = -11.312 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 181.304 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 172.708 MB, end = 162.252 MB, delta = -10.456 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 182.688 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:3231)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0256 WARNING] The primary output port 'csi_ctl0_o' wire 'csi_ctl0_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_ctl1_o' wire 'csi_ctl1_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_scl_o' wire 'csi_scl_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_scl_oe' wire 'csi_scl_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_sda_o' wire 'csi_sda_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_sda_oe' wire 'csi_sda_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxc_hs_en_o' wire 'csi_rxc_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxc_hs_term_en_o' wire 'csi_rxc_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd0_rst_o' wire 'csi_rxd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd0_hs_en_o' wire 'csi_rxd0_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd0_hs_term_en_o' wire 'csi_rxd0_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd1_rst_o' wire 'csi_rxd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd1_hs_en_o' wire 'csi_rxd1_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd1_hs_term_en_o' wire 'csi_rxd1_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd2_rst_o' wire 'csi_rxd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd2_hs_en_o' wire 'csi_rxd2_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd2_hs_term_en_o' wire 'csi_rxd2_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd3_rst_o' wire 'csi_rxd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd3_hs_en_o' wire 'csi_rxd3_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd3_hs_term_en_o' wire 'csi_rxd3_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_rst_o' wire 'dsi_txc_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_p_oe' wire 'dsi_txc_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_p_o' wire 'dsi_txc_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_n_oe' wire 'dsi_txc_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_n_o' wire 'dsi_txc_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_oe' wire 'dsi_txc_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[7]' wire 'dsi_txc_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[6]' wire 'dsi_txc_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[5]' wire 'dsi_txc_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[4]' wire 'dsi_txc_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[3]' wire 'dsi_txc_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[2]' wire 'dsi_txc_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[1]' wire 'dsi_txc_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[0]' wire 'dsi_txc_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_rst_o' wire 'dsi_txd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_oe' wire 'dsi_txd0_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[7]' wire 'dsi_txd0_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[6]' wire 'dsi_txd0_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[5]' wire 'dsi_txd0_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[4]' wire 'dsi_txd0_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[3]' wire 'dsi_txd0_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[2]' wire 'dsi_txd0_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[1]' wire 'dsi_txd0_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[0]' wire 'dsi_txd0_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_p_oe' wire 'dsi_txd0_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_p_o' wire 'dsi_txd0_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_n_oe' wire 'dsi_txd0_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_n_o' wire 'dsi_txd0_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_rst_o' wire 'dsi_txd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_p_oe' wire 'dsi_txd1_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_p_o' wire 'dsi_txd1_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_n_oe' wire 'dsi_txd1_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_n_o' wire 'dsi_txd1_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_oe' wire 'dsi_txd1_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[7]' wire 'dsi_txd1_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[6]' wire 'dsi_txd1_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[5]' wire 'dsi_txd1_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[4]' wire 'dsi_txd1_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[3]' wire 'dsi_txd1_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[2]' wire 'dsi_txd1_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[1]' wire 'dsi_txd1_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[0]' wire 'dsi_txd1_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_rst_o' wire 'dsi_txd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_p_oe' wire 'dsi_txd2_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_p_o' wire 'dsi_txd2_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_n_oe' wire 'dsi_txd2_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_n_o' wire 'dsi_txd2_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_oe' wire 'dsi_txd2_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[7]' wire 'dsi_txd2_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[6]' wire 'dsi_txd2_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[5]' wire 'dsi_txd2_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[4]' wire 'dsi_txd2_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[3]' wire 'dsi_txd2_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[2]' wire 'dsi_txd2_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[1]' wire 'dsi_txd2_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[0]' wire 'dsi_txd2_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_rst_o' wire 'dsi_txd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_p_oe' wire 'dsi_txd3_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_p_o' wire 'dsi_txd3_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_n_oe' wire 'dsi_txd3_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_n_o' wire 'dsi_txd3_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_oe' wire 'dsi_txd3_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[7]' wire 'dsi_txd3_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[6]' wire 'dsi_txd3_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[5]' wire 'dsi_txd3_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[4]' wire 'dsi_txd3_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[3]' wire 'dsi_txd3_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[2]' wire 'dsi_txd3_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[1]' wire 'dsi_txd3_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[0]' wire 'dsi_txd3_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'uart_tx_o' wire 'uart_tx_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'led_o[4]' wire 'led_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led_o[3]' wire 'led_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led_o[2]' wire 'led_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led_o[1]' wire 'led_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_ctl2' wire 'cmos_ctl2' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_ctl3' wire 'cmos_ctl3' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_oe' wire 'lvds_txc_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[6]' wire 'lvds_txc_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[5]' wire 'lvds_txc_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[4]' wire 'lvds_txc_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[3]' wire 'lvds_txc_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[2]' wire 'lvds_txc_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[1]' wire 'lvds_txc_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[0]' wire 'lvds_txc_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_rst_o' wire 'lvds_txc_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_oe' wire 'lvds_txd0_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[6]' wire 'lvds_txd0_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[5]' wire 'lvds_txd0_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[4]' wire 'lvds_txd0_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[3]' wire 'lvds_txd0_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[2]' wire 'lvds_txd0_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[1]' wire 'lvds_txd0_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[0]' wire 'lvds_txd0_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_rst_o' wire 'lvds_txd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_oe' wire 'lvds_txd1_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[6]' wire 'lvds_txd1_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[5]' wire 'lvds_txd1_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[4]' wire 'lvds_txd1_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[3]' wire 'lvds_txd1_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[2]' wire 'lvds_txd1_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[1]' wire 'lvds_txd1_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[0]' wire 'lvds_txd1_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_rst_o' wire 'lvds_txd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_oe' wire 'lvds_txd2_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[6]' wire 'lvds_txd2_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[5]' wire 'lvds_txd2_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[4]' wire 'lvds_txd2_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[3]' wire 'lvds_txd2_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[2]' wire 'lvds_txd2_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[1]' wire 'lvds_txd2_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[0]' wire 'lvds_txd2_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_rst_o' wire 'lvds_txd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_oe' wire 'lvds_txd3_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[6]' wire 'lvds_txd3_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[5]' wire 'lvds_txd3_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[4]' wire 'lvds_txd3_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[3]' wire 'lvds_txd3_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[2]' wire 'lvds_txd3_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[1]' wire 'lvds_txd3_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[0]' wire 'lvds_txd3_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_rst_o' wire 'lvds_txd3_rst_o' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][7]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][6]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][5]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][4]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][3]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][2]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][1]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][0]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[7]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[6]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[5]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[4]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[3]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[2]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[1]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[0]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][31]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][30]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][29]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][28]. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wclk=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[0]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[1]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[2]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[3]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[4]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[5]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[6]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[7]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[8]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[9]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[10]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[11]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[12]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[13]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[14]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[15]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[16]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[17]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[18]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[19]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[20]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[21]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[22]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[23]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[24]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[25]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[26]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[27]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[28]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[29]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[30]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[31]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[32]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[33]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[34]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[35]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[36]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[37]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[38]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[39]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[40]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[41]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[42]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[43]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[44]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[45]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[46]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[47]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[48]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[49]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[50]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[51]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[52]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[53]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[54]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[55]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[56]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[57]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[58]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[59]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[60]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[61]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[62]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[63]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[64]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[65]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[66]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[67]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[68]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[69]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[70]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[71]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[0]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[1]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[2]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[3]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[4]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[5]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[6]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[7]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[8]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (we=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (re=1).
+[EFX-0266 WARNING] Module Instance 'fifo_rdpush' input pin tied to constant (io_push_payload[0]=1).
+[EFX-0266 WARNING] Module Instance 'fifo_rdpush' input pin tied to constant (io_pop_ready=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'fifo_rd.a_rst_i'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'fifo_rd.clk_i'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0266 WARNING] Module Instance 'fifo_ack' input pin tied to constant (io_pop_ready=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'w_ar_fifo_rd_vaild'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'w_aw_fifo_rd_vaild'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0266 WARNING] Module Instance 'mux0' input pin tied to constant (b_rd_en=1).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[0]=0).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[1]=0).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[2]=1).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[3]=0).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[4]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[2]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[3]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[4]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[5]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[6]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[7]=0).
+[EFX-0266 WARNING] Module Instance 'u_wr_addr_fifo' input pin tied to constant (I_Wr_Data[42]=0).
+[EFX-0266 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[127]'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[126]'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[125]'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[124]'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[123]'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[122]'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\asyn_fifo\asyn_fifo.v:719)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\W0_FIFO_32\W0_FIFO_32.v:709)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\Users\Administrator\Desktop\wujisuofang\Ti60F225_ADV7611_HDMI_480P1110\Ti60F225_ADV7611_HDMI_480P\Ti60_ADV7611_HDMI_640x480_EDID\ip\R0_FIFO_32\R0_FIFO_32.v:719)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "example_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=8,DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=8,DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_fbd3d233390c485cb3263c0efc0a7981(DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_fbd3d233390c485cb3263c0efc0a7981(DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=48,DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=48,DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "native_mux_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "native_mux_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_fbd3d233390c485cb3263c0efc0a7981(OUT_RST_ACTIVE="LOW",CYCLE=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_fbd3d233390c485cb3263c0efc0a7981(OUT_RST_ACTIVE="LOW",CYCLE=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_fbd3d233390c485cb3263c0efc0a7981(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_fbd3d233390c485cb3263c0efc0a7981(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_fbd3d233390c485cb3263c0efc0a7981(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_fbd3d233390c485cb3263c0efc0a7981(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_1_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_1_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=144)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=144)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_fbd3d233390c485cb3263c0efc0a7981(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_fbd3d233390c485cb3263c0efc0a7981(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_fbd3d233390c485cb3263c0efc0a7981(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_fbd3d233390c485cb3263c0efc0a7981(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_fbd3d233390c485cb3263c0efc0a7981(STAGE=2,WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_fbd3d233390c485cb3263c0efc0a7981(STAGE=2,WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fbd3d233390c485cb3263c0efc0a7981(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_fbd3d233390c485cb3263c0efc0a7981(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_fbd3d233390c485cb3263c0efc0a7981(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_fbd3d233390c485cb3263c0efc0a7981_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_fbd3d233390c485cb3263c0efc0a7981_renamed_due_excessive_length_1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=52)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=52)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "user_dual_port_ram_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "user_dual_port_ram_fbd3d233390c485cb3263c0efc0a7981(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_3_controller_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_3_controller_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_top_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_top_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_fbd3d233390c485cb3263c0efc0a7981(OUT_RST_ACTIVE="LOW",CYCLE=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_fbd3d233390c485cb3263c0efc0a7981(OUT_RST_ACTIVE="LOW",CYCLE=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_fbd3d233390c485cb3263c0efc0a7981(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_fbd3d233390c485cb3263c0efc0a7981(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phase_shift_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phase_shift_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_axi_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_axi_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_fbd3d233390c485cb3263c0efc0a7981" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_fbd3d233390c485cb3263c0efc0a7981" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrCtrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrCtrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AXI4_AWARMux(AID_LEN=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AXI4_AWARMux(AID_LEN=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_timing_ctrl(CLK_FREQ=24000000,I2C_FREQ=50000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_timing_ctrl(CLK_FREQ=24000000,I2C_FREQ=50000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2C_ADV7611_Config" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2C_ADV7611_Config" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_timing_ctrl_reg16_dat16(CLK_FREQ=96000000,I2C_FREQ=50000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_timing_ctrl_reg16_dat16(CLK_FREQ=96000000,I2C_FREQ=50000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2C_AR0135_1280720_Config" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2C_AR0135_1280720_Config" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMLite" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMLite" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "x_ratio_case" begin
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: 'data' select size : 10 output width: 16
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "x_ratio_case" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "y_ratio_case" begin
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: 'data' select size : 11 output width: 16
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "y_ratio_case" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_5" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_5" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_7" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_7" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_9" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpbram_primitive_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_9" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpram_wrapper_mwm_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_4" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dpram_wrapper_mwm_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_4" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_true_dual_port_ram_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_true_dual_port_ram_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_53cbbce291d545bfba3aa82564aaf8d7_renamed_due_excessive_length_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "my_bram_ip" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "my_bram_ip" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_567bbcdf972041248a4b56f10a3b95b9(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=8192,RD_DEPTH=8192,WDATA_WIDTH=11,RDATA_WIDTH=11,WADDR_WIDTH=13,RADDR_WIDTH=13,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_567bbcdf972041248a4b56f10a3b95b9(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=8192,RD_DEPTH=8192,WDATA_WIDTH=11,RDATA_WIDTH=11,WADDR_WIDTH=13,RADDR_WIDTH=13,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_567bbcdf972041248a4b56f10a3b95b9(WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_567bbcdf972041248a4b56f10a3b95b9(WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_567bbcdf972041248a4b56f10a3b95b9(STAGE=2,WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_567bbcdf972041248a4b56f10a3b95b9(STAGE=2,WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567bbcdf972041248a4b56f10a3b95b9(WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_567bbcdf972041248a4b56f10a3b95b9_renamed_due_excessive_length_11" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_567bbcdf972041248a4b56f10a3b95b9_renamed_due_excessive_length_11" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_567bbcdf972041248a4b56f10a3b95b9_renamed_due_excessive_length_10" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_567bbcdf972041248a4b56f10a3b95b9_renamed_due_excessive_length_10" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "asyn_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "asyn_fifo" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bilinear_interpolation(C_SRC_IMG_WIDTH=640,C_SRC_IMG_HEIGHT=480)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bilinear_interpolation(C_SRC_IMG_WIDTH=640,C_SRC_IMG_HEIGHT=480)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_8f4a0410a9734101bcd9f40726041cb5(MODE="FWFT",WR_DEPTH=2048,WDATA_WIDTH=32,RDATA_WIDTH=128,WADDR_WIDTH=11,OUTPUT_REG=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_8f4a0410a9734101bcd9f40726041cb5(MODE="FWFT",WR_DEPTH=2048,WDATA_WIDTH=32,RDATA_WIDTH=128,WADDR_WIDTH=11,OUTPUT_REG=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_8f4a0410a9734101bcd9f40726041cb5(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_8f4a0410a9734101bcd9f40726041cb5(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_8f4a0410a9734101bcd9f40726041cb5(STAGE=3,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_8f4a0410a9734101bcd9f40726041cb5(STAGE=3,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_8f4a0410a9734101bcd9f40726041cb5(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_8f4a0410a9734101bcd9f40726041cb5(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_8f4a0410a9734101bcd9f40726041cb5(STAGE=3,WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_8f4a0410a9734101bcd9f40726041cb5(STAGE=3,WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_8f4a0410a9734101bcd9f40726041cb5(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_8f4a0410a9734101bcd9f40726041cb5_renamed_due_excessive_length_13" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_8f4a0410a9734101bcd9f40726041cb5_renamed_due_excessive_length_13" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_8f4a0410a9734101bcd9f40726041cb5_renamed_due_excessive_length_12" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_8f4a0410a9734101bcd9f40726041cb5_renamed_due_excessive_length_12" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO_32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO_32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_68110a1dc4f14fed96e8178b3ae9acd4(FAMILY="TITANIUM",MODE="FWFT",RD_DEPTH=2048,WDATA_WIDTH=128,RDATA_WIDTH=32,RADDR_WIDTH=11,OUTPUT_REG=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_68110a1dc4f14fed96e8178b3ae9acd4(FAMILY="TITANIUM",MODE="FWFT",RD_DEPTH=2048,WDATA_WIDTH=128,RDATA_WIDTH=32,RADDR_WIDTH=11,OUTPUT_REG=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_68110a1dc4f14fed96e8178b3ae9acd4(STAGE=3,WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_68110a1dc4f14fed96e8178b3ae9acd4(STAGE=3,WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_68110a1dc4f14fed96e8178b3ae9acd4(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_68110a1dc4f14fed96e8178b3ae9acd4(STAGE=3,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_68110a1dc4f14fed96e8178b3ae9acd4(STAGE=3,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_68110a1dc4f14fed96e8178b3ae9acd4_renamed_due_excessive_length_15" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_68110a1dc4f14fed96e8178b3ae9acd4_renamed_due_excessive_length_15" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_68110a1dc4f14fed96e8178b3ae9acd4_renamed_due_excessive_length_14" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_68110a1dc4f14fed96e8178b3ae9acd4_renamed_due_excessive_length_14" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO_32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO_32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl(C_ID_LEN=4,C_RD_END_ADDR=8294400,C_W_WIDTH=32,C_R_WIDTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl(C_ID_LEN=4,C_RD_END_ADDR=8294400,C_W_WIDTH=32,C_R_WIDTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_channel" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_channel" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "example_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 1025 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "example_top" end (Real time : 3s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 4126, ed: 12809, lv: 10, pw: 13559.10
+[EFX-0000 INFO] ... LUT mapping end (Real time : 17s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port clk_25m is unconnected and will be removed
+WARNING: Input/Inout Port key_data[1] is unconnected and will be removed
+WARNING: Input/Inout Port key_data[0] is unconnected and will be removed
+WARNING: Input/Inout Port clk_200m is unconnected and will be removed
+WARNING: Input/Inout Port clk_pixel_10x is unconnected and will be removed
+WARNING: Input/Inout Port dsi_refclk_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_byteclk_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_serclk_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txcclk_i is unconnected and will be removed
+WARNING: Input/Inout Port clk_lvds_1x is unconnected and will be removed
+WARNING: Input/Inout Port clk_lvds_7x is unconnected and will be removed
+WARNING: Input/Inout Port clk_27m is unconnected and will be removed
+WARNING: Input/Inout Port clk_54m is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_hi[1] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_hi[0] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_lo[1] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_lo[0] is unconnected and will be removed
+WARNING: Input/Inout Port csi_ctl0_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_ctl1_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_scl_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_sda_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxc_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxc_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxc_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd0_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd0_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd1_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd1_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd2_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd2_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd3_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd3_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port uart_rx_i is unconnected and will be removed
+WARNING: Input/Inout Port cmos_href is unconnected and will be removed
+WARNING: Input/Inout Port cmos_data[7] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_data[6] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_data[5] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_data[4] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_data[3] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_data[2] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_data[1] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_data[0] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_ctl1 is unconnected and will be removed
+WARNING: Input/Inout Port hdmi_sda_io_IN is unconnected and will be removed
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/mult_217 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/mult_218 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/mult_219 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/mult_220 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n3922_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n3965_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4008_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4051_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4267_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4267_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4310_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4353_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4396_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4612_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4655_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4698_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4741_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n3922_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n3965_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4008_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4051_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4310_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4353_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4396_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4612_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4655_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4698_pp_1x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance u_bilinear_interpolation/n4741_pp_1x0 is permanently disabled
+INFO: Found 112 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.177705 seconds.
+INFO: 	VDB Netlist Checker took 0.09375 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 230.42 MB, end = 230.42 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 238.504 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 233.328 MB, end = 233.392 MB, delta = 0.064 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 239.244 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'example_top' to Verilog file 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	1457
+[EFX-0000 INFO] EFX_LUT4        : 	4069
+[EFX-0000 INFO] EFX_DSP48       : 	28
+[EFX-0000 INFO] EFX_FF          : 	3940
+[EFX-0000 INFO] EFX_SRL8        : 	578
+[EFX-0000 INFO] EFX_RAM10       : 	58
+[EFX-0000 INFO] EFX_DPRAM10     : 	48
+[EFX-0000 INFO] =============================== 

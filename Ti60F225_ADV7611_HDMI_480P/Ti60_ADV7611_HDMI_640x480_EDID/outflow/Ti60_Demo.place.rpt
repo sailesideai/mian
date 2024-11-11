@@ -1,0 +1,293 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Date: Mon Nov 11 16:46:31 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: Ti60_Demo
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 85 / 1703 (4.99%)
+Outputs: 426 / 2267 (18.79%)
+Global Clocks (GBUF): 16 / 32 (50.00%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 7877 / 60800 (12.96%)
+	XLRs needed for Logic: 2528 / 60800 (4.16%)
+	XLRs needed for Logic + FF: 1543 / 60800 (2.54%)
+	XLRs needed for Adder: 831 / 60800 (1.37%)
+	XLRs needed for Adder + FF: 626 / 60800 (1.03%)
+	XLRs needed for FF: 1771 / 60800 (2.91%)
+	XLRs needed for SRL8: 578 / 14720 (3.93%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 106 / 256 (41.41%)
+DSP Blocks: 28 / 160 (17.50%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 28
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 28
+
+---------- DSP Packer Summary (end) ----------
+
+
+---------- DSP48 Block Information (begin) ----------
+
++---------------------------------------+--------+--------+---------+-------+--------------+-------+-------------+
+|                 NAME                  |  MODE  | SIGNED | SHIFTER | M_SEL |    N_SEL     | W_SEL | CASCOUT_SEL |
++---------------------------------------+--------+--------+---------+-------+--------------+-------+-------------+
+|   u_bilinear_interpolation/mult_217   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_bilinear_interpolation/mult_218   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_bilinear_interpolation/mult_219   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_bilinear_interpolation/mult_220   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n3922_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n3965_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4008_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4051_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4267_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4267_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4310_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4353_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4396_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4612_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4655_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4698_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n4741_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_bilinear_interpolation/n3922_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n3965_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4008_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4051_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4310_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4353_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4396_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4612_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4655_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4698_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+| u_bilinear_interpolation/n4741_pp_1x0 | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
++---------------------------------------+--------+--------+---------+-------+--------------+-------+-------------+
+
+----------- DSP48 Block Information (end) ----------
+
+
+---------- Simple Dual Port RAM Information (begin) ----------
+
++-----------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                                         NAME                                                          | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++-----------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/ram__D$1          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/ram__D$1          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$12          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$b12         | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$c12         | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$d12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$e12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$f12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$g1          | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|   ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$2   | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$b12  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$12   | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$c12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$d12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$e12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$f1   | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|            ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/ram            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$12          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$b1          | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$b12 | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$12  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$2  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+| ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$c1  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                                  u_bilinear_interpolation/u_x_ratio_case/mux_3__D$1                                   | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+|                                  u_bilinear_interpolation/u_x_ratio_case/mux_3__D$2                                   | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+|                                  u_bilinear_interpolation/u_y_ratio_case/mux_3__D$2                                   | SDP  |     4      |      4      | READ_UNKNOWN |   false    |
+|                                 u_bilinear_interpolation/u_y_ratio_case/mux_3__D$b12                                  | SDP  |     4      |      4      | READ_UNKNOWN |   false    |
+|                                  u_bilinear_interpolation/u_y_ratio_case/mux_3__D$c1                                  | SDP  |     4      |      4      | READ_UNKNOWN |   false    |
+|                      u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                       | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                     u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                      u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                     u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                     u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                     u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                     u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                     u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$g12                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                     u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$h12                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                     u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$i12                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                      u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$j1                      | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                                  u_bilinear_interpolation/u_y_ratio_case/mux_3__D$12                                  | SDP  |     4      |      4      | READ_UNKNOWN |   false    |
+|                      u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                      | SDP  |     16     |      4      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12                     | SDP  |     16     |      4      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                      | SDP  |     16     |      4      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                     | SDP  |     16     |      4      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12                     | SDP  |     16     |      4      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12                     | SDP  |     16     |      4      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$g1                      | SDP  |     16     |      4      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                     | SDP  |     16     |      4      | READ_UNKNOWN |   false    |
+|                      u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                      | SDP  |     4      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                     | SDP  |     4      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12                     | SDP  |     4      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12                     | SDP  |     4      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                      | SDP  |     4      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                     | SDP  |     4      |     16      | READ_UNKNOWN |   false    |
++-----------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Simple Dual Port RAM Information (end) ----------
+
+
+---------- True Dual Port RAM Information (begin) ----------
+
++-----------------------------------------------------------------------------------------------------------------------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+|                                                               NAME                                                                | MODE | READ_WIDTH_A | WRITE_WIDTH_A | WRITE_MODE_A | OUTPUT_REG_A | READ_WIDTH_B | WRITE_WIDTH_B | WRITE_MODE_B | OUTPUT_REG_B |
++-----------------------------------------------------------------------------------------------------------------------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+|  u_bilinear_interpolation/u1_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u1_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u1_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u1_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u2_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u2_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u2_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u2_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u3_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u3_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u3_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u3_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u4_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u4_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u4_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+|  u_bilinear_interpolation/u4_my_bram_ip_red/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u1_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u1_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u1_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u1_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u2_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u2_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u2_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u2_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u3_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u3_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u3_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u3_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u4_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u4_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u4_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u4_my_bram_ip_green/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u1_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u1_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u1_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u1_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u2_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u2_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u2_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u2_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u3_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u3_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u3_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u3_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u4_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u4_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u4_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
+| u_bilinear_interpolation/u4_my_bram_ip_blue/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      2       |       2       |  READ_FIRST  |    false     |      2       |       2       |  READ_FIRST  |    false     |
++-----------------------------------------------------------------------------------------------------------------------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+
+----------- True Dual Port RAM Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|      cmos_data[0]      |    Input     |
+|      cmos_data[1]      |    Input     |
+|        clk_200m        |    Input     |
+|     hdmi_sda_io_IN     |    Input     |
+|      cmos_data[4]      |    Input     |
+|      cmos_data[6]      |    Input     |
+|      cmos_data[2]      |    Input     |
+|     i_dqs_n_lo[1]      |    Input     |
+|     i_dqs_n_hi[1]      |    Input     |
+|       csi_sda_i        |    Input     |
+|      dsi_refclk_i      |    Input     |
+|        clk_54m         |    Input     |
+|       csi_scl_i        |    Input     |
+|       csi_ctl0_i       |    Input     |
+|       csi_ctl1_i       |    Input     |
+|     i_dqs_n_lo[0]      |    Input     |
+|     i_dqs_n_hi[0]      |    Input     |
+|       uart_rx_i        |    Input     |
+|        clk_25m         |    Input     |
+|       csi_rxc_i        |    Input     |
+|    dsi_txd3_lp_p_i     |    Input     |
+|    dsi_txd3_lp_n_i     |    Input     |
+|    dsi_txd0_lp_p_i     |    Input     |
+|    dsi_txd0_lp_n_i     |    Input     |
+|    dsi_txd1_lp_p_i     |    Input     |
+|    dsi_txd1_lp_n_i     |    Input     |
+|    dsi_txd2_lp_p_i     |    Input     |
+|    dsi_txd2_lp_n_i     |    Input     |
+|    csi_rxd2_hs_i[0]    |    Input     |
+|    csi_rxd2_hs_i[1]    |    Input     |
+|    csi_rxd2_hs_i[2]    |    Input     |
+|    csi_rxd2_hs_i[3]    |    Input     |
+|    csi_rxd2_hs_i[4]    |    Input     |
+|    csi_rxd2_hs_i[5]    |    Input     |
+|    csi_rxd2_hs_i[6]    |    Input     |
+|    csi_rxd2_hs_i[7]    |    Input     |
+|    csi_rxd2_lp_p_i     |    Input     |
+|    csi_rxd2_lp_n_i     |    Input     |
+|    csi_rxd3_hs_i[0]    |    Input     |
+|    csi_rxd3_hs_i[1]    |    Input     |
+|    csi_rxd3_hs_i[2]    |    Input     |
+|    csi_rxd3_hs_i[3]    |    Input     |
+|    csi_rxd3_hs_i[4]    |    Input     |
+|    csi_rxd3_hs_i[5]    |    Input     |
+|    csi_rxd3_hs_i[6]    |    Input     |
+|    csi_rxd3_hs_i[7]    |    Input     |
+|    csi_rxd3_lp_p_i     |    Input     |
+|    csi_rxd3_lp_n_i     |    Input     |
+|     csi_rxc_lp_p_i     |    Input     |
+|     csi_rxc_lp_n_i     |    Input     |
+|    csi_rxd0_hs_i[0]    |    Input     |
+|    csi_rxd0_hs_i[1]    |    Input     |
+|    csi_rxd0_hs_i[2]    |    Input     |
+|    csi_rxd0_hs_i[3]    |    Input     |
+|    csi_rxd0_hs_i[4]    |    Input     |
+|    csi_rxd0_hs_i[5]    |    Input     |
+|    csi_rxd0_hs_i[6]    |    Input     |
+|    csi_rxd0_hs_i[7]    |    Input     |
+|    csi_rxd0_lp_p_i     |    Input     |
+|    csi_rxd0_lp_n_i     |    Input     |
+|    csi_rxd1_hs_i[0]    |    Input     |
+|    csi_rxd1_hs_i[1]    |    Input     |
+|    csi_rxd1_hs_i[2]    |    Input     |
+|    csi_rxd1_hs_i[3]    |    Input     |
+|    csi_rxd1_hs_i[4]    |    Input     |
+|    csi_rxd1_hs_i[5]    |    Input     |
+|    csi_rxd1_hs_i[6]    |    Input     |
+|    csi_rxd1_hs_i[7]    |    Input     |
+|    csi_rxd1_lp_p_i     |    Input     |
+|    csi_rxd1_lp_n_i     |    Input     |
+|      cmos_data[7]      |    Input     |
+|       cmos_ctl1        |    Input     |
+|      cmos_data[5]      |    Input     |
+|      cmos_data[3]      |    Input     |
+|       cmos_href        |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 53 seconds

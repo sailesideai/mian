@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "W0_FIFO_128",
+        "--base_path",
+        "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "3",
+        "DEPTH_2": "9",
+        "DATA_WIDTH": "128",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "384",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "383",
+        "PEA_INTERNAL": "127",
+        "PEN_INTERNAL": "128",
+        "PROGRAMMABLE_EMPTY": "\"STATIC_SINGLE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TITANIUM\"",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "1"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\W0_FIFO_128.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\W0_FIFO_128_tmpl.vhd",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\W0_FIFO_128_tmpl.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\W0_FIFO_128_define.vh"
+        ],
+        "external_example_example": [
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\T20F256_devkit\\fifo_demo_top.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\T20F256_devkit\\W0_FIFO_128.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\T20F256_devkit\\W0_FIFO_128_define.vh",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\T20F256_devkit\\fifo_demo.peri.xml",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\T20F256_devkit\\fifo_demo.xml"
+        ],
+        "external_example_2": [
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Ti60F225_devkit\\fifo_demo_top.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Ti60F225_devkit\\W0_FIFO_128.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Ti60F225_devkit\\W0_FIFO_128_define.vh",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Ti60F225_devkit\\fifo_demo.xml"
+        ],
+        "external_testbench_testbench": [
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Testbench\\fifo_tb.sv",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Testbench\\xrun.sh",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Testbench\\msim.sh",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Testbench\\flist",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Testbench\\modelsim.do",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Testbench\\W0_FIFO_128.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_ADV7611\\V5_Ti60_AR0135_HDMI\\ip\\W0_FIFO_128\\Testbench\\W0_FIFO_128_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-09-23T13:32:33.300323"
+}

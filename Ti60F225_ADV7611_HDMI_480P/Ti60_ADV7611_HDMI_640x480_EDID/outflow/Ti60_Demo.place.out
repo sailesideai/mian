@@ -1,0 +1,803 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Compiled: May 19 2024.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Titanium", Device "Ti60F225" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.180038 seconds.
+	VDB Netlist Checker took 0.125 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 53.02 MB, end = 53.06 MB, delta = 0.04 MB
+	VDB Netlist Checker peak virtual memory usage = 64.212 MB
+VDB Netlist Checker resident set memory usage: begin = 64.944 MB, end = 65.264 MB, delta = 0.32 MB
+	VDB Netlist Checker peak resident set memory usage = 76.128 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #1(clk_25m) has no fanout.
+Removing input.
+logical_block #2(key_data[1]) has no fanout.
+Removing input.
+logical_block #3(key_data[0]) has no fanout.
+Removing input.
+logical_block #5(clk_200m) has no fanout.
+Removing input.
+logical_block #11(dsi_refclk_i) has no fanout.
+Removing input.
+logical_block #35(clk_54m) has no fanout.
+Removing input.
+logical_block #151(i_dqs_n_hi[1]) has no fanout.
+Removing input.
+logical_block #152(i_dqs_n_hi[0]) has no fanout.
+Removing input.
+logical_block #153(i_dqs_n_lo[1]) has no fanout.
+Removing input.
+logical_block #154(i_dqs_n_lo[0]) has no fanout.
+Removing input.
+logical_block #173(csi_ctl0_i) has no fanout.
+Removing input.
+logical_block #176(csi_ctl1_i) has no fanout.
+Removing input.
+logical_block #179(csi_scl_i) has no fanout.
+Removing input.
+logical_block #182(csi_sda_i) has no fanout.
+Removing input.
+logical_block #183(csi_rxc_lp_p_i) has no fanout.
+Removing input.
+logical_block #184(csi_rxc_lp_n_i) has no fanout.
+Removing input.
+logical_block #187(csi_rxc_i) has no fanout.
+Removing input.
+logical_block #191(csi_rxd0_lp_p_i) has no fanout.
+Removing input.
+logical_block #192(csi_rxd0_lp_n_i) has no fanout.
+Removing input.
+logical_block #193(csi_rxd0_hs_i[7]) has no fanout.
+Removing input.
+logical_block #194(csi_rxd0_hs_i[6]) has no fanout.
+Removing input.
+logical_block #195(csi_rxd0_hs_i[5]) has no fanout.
+Removing input.
+logical_block #196(csi_rxd0_hs_i[4]) has no fanout.
+Removing input.
+logical_block #197(csi_rxd0_hs_i[3]) has no fanout.
+Removing input.
+logical_block #198(csi_rxd0_hs_i[2]) has no fanout.
+Removing input.
+logical_block #199(csi_rxd0_hs_i[1]) has no fanout.
+Removing input.
+logical_block #200(csi_rxd0_hs_i[0]) has no fanout.
+Removing input.
+logical_block #204(csi_rxd1_lp_n_i) has no fanout.
+Removing input.
+logical_block #205(csi_rxd1_lp_p_i) has no fanout.
+Removing input.
+logical_block #206(csi_rxd1_hs_i[7]) has no fanout.
+Removing input.
+logical_block #207(csi_rxd1_hs_i[6]) has no fanout.
+Removing input.
+logical_block #208(csi_rxd1_hs_i[5]) has no fanout.
+Removing input.
+logical_block #209(csi_rxd1_hs_i[4]) has no fanout.
+Removing input.
+logical_block #210(csi_rxd1_hs_i[3]) has no fanout.
+Removing input.
+logical_block #211(csi_rxd1_hs_i[2]) has no fanout.
+Removing input.
+logical_block #212(csi_rxd1_hs_i[1]) has no fanout.
+Removing input.
+logical_block #213(csi_rxd1_hs_i[0]) has no fanout.
+Removing input.
+logical_block #217(csi_rxd2_lp_p_i) has no fanout.
+Removing input.
+logical_block #218(csi_rxd2_lp_n_i) has no fanout.
+Removing input.
+logical_block #219(csi_rxd2_hs_i[7]) has no fanout.
+Removing input.
+logical_block #220(csi_rxd2_hs_i[6]) has no fanout.
+Removing input.
+logical_block #221(csi_rxd2_hs_i[5]) has no fanout.
+Removing input.
+logical_block #222(csi_rxd2_hs_i[4]) has no fanout.
+Removing input.
+logical_block #223(csi_rxd2_hs_i[3]) has no fanout.
+Removing input.
+logical_block #224(csi_rxd2_hs_i[2]) has no fanout.
+Removing input.
+logical_block #225(csi_rxd2_hs_i[1]) has no fanout.
+Removing input.
+logical_block #226(csi_rxd2_hs_i[0]) has no fanout.
+Removing input.
+logical_block #230(csi_rxd3_lp_p_i) has no fanout.
+Removing input.
+logical_block #231(csi_rxd3_lp_n_i) has no fanout.
+Removing input.
+logical_block #232(csi_rxd3_hs_i[7]) has no fanout.
+Removing input.
+logical_block #233(csi_rxd3_hs_i[6]) has no fanout.
+Removing input.
+logical_block #234(csi_rxd3_hs_i[5]) has no fanout.
+Removing input.
+logical_block #235(csi_rxd3_hs_i[4]) has no fanout.
+Removing input.
+logical_block #236(csi_rxd3_hs_i[3]) has no fanout.
+Removing input.
+logical_block #237(csi_rxd3_hs_i[2]) has no fanout.
+Removing input.
+logical_block #238(csi_rxd3_hs_i[1]) has no fanout.
+Removing input.
+logical_block #239(csi_rxd3_hs_i[0]) has no fanout.
+Removing input.
+logical_block #312(dsi_txd0_lp_p_i) has no fanout.
+Removing input.
+logical_block #313(dsi_txd0_lp_n_i) has no fanout.
+Removing input.
+logical_block #314(dsi_txd1_lp_p_i) has no fanout.
+Removing input.
+logical_block #315(dsi_txd1_lp_n_i) has no fanout.
+Removing input.
+logical_block #316(dsi_txd2_lp_p_i) has no fanout.
+Removing input.
+logical_block #317(dsi_txd2_lp_n_i) has no fanout.
+Removing input.
+logical_block #318(dsi_txd3_lp_p_i) has no fanout.
+Removing input.
+logical_block #319(dsi_txd3_lp_n_i) has no fanout.
+Removing input.
+logical_block #320(uart_rx_i) has no fanout.
+Removing input.
+logical_block #334(cmos_href) has no fanout.
+Removing input.
+logical_block #335(cmos_data[7]) has no fanout.
+Removing input.
+logical_block #336(cmos_data[6]) has no fanout.
+Removing input.
+logical_block #337(cmos_data[5]) has no fanout.
+Removing input.
+logical_block #338(cmos_data[4]) has no fanout.
+Removing input.
+logical_block #339(cmos_data[3]) has no fanout.
+Removing input.
+logical_block #340(cmos_data[2]) has no fanout.
+Removing input.
+logical_block #341(cmos_data[1]) has no fanout.
+Removing input.
+logical_block #342(cmos_data[0]) has no fanout.
+Removing input.
+logical_block #343(cmos_ctl1) has no fanout.
+Removing input.
+logical_block #468(hdmi_sda_io_IN) has no fanout.
+Removing input.
+Pass 0: Swept away 77 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 77 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 77 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.vdb".
+Netlist pre-processing took 0.519137 seconds.
+	Netlist pre-processing took 0.171875 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 25.072 MB, end = 75.352 MB, delta = 50.28 MB
+	Netlist pre-processing peak virtual memory usage = 76.976 MB
+Netlist pre-processing resident set memory usage: begin = 37.236 MB, end = 86.98 MB, delta = 49.744 MB
+	Netlist pre-processing peak resident set memory usage = 88.548 MB
+***** Ending stage netlist pre-processing *****
+
+Load Global Network took 1.14637 seconds.
+	Load Global Network took 0.265625 seconds (approximately) in total CPU time.
+Load Global Network virtual memory usage: begin = 52.036 MB, end = 139.704 MB, delta = 87.668 MB
+	Load Global Network peak virtual memory usage = 192.596 MB
+Load Global Network resident set memory usage: begin = 63.88 MB, end = 133.836 MB, delta = 69.956 MB
+	Load Global Network peak resident set memory usage = 186.276 MB
+Reading C:/Efinity/2023.2/arch/.\rr_pb_hier_mapping.xml
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/work_pnr\Ti60_Demo.net_proto" took 0.053 seconds
+Creating IO constraints file 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/work_pnr\Ti60_Demo.io_place'
+Packing took 0.13669 seconds.
+	Packing took 0.046875 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 185.964 MB, end = 193.328 MB, delta = 7.364 MB
+	Packing peak virtual memory usage = 193.328 MB
+Packing resident set memory usage: begin = 177.528 MB, end = 184.684 MB, delta = 7.156 MB
+	Packing peak resident set memory usage = 186.276 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/work_pnr\Ti60_Demo.net_proto
+Read proto netlist for file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/work_pnr\Ti60_Demo.net_proto" took 0.009 seconds
+Setup net and block data structure took 0.269 seconds
+Reading core interface constraints from 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.interface.csv".
+Counting 2 clocks that are not assigned to clock resources as global clocks.
+Packed netlist loading took 3.66087 seconds.
+	Packed netlist loading took 2.03125 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 193.328 MB, end = 278.456 MB, delta = 85.128 MB
+	Packed netlist loading peak virtual memory usage = 317.628 MB
+Packed netlist loading resident set memory usage: begin = 184.692 MB, end = 267.06 MB, delta = 82.368 MB
+	Packed netlist loading peak resident set memory usage = 306.108 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+Read router lookahead for device Ti60F225 from file C:/Efinity/2023.2/arch/./troute/timing/titanium/lookahead/C4.lookahead.zst.
+
+Load Router Lookahead took 0.0645297 seconds.
+	Load Router Lookahead took 0 seconds (approximately) in total CPU time.
+Load Router Lookahead virtual memory usage: begin = 299.92 MB, end = 330.54 MB, delta = 30.62 MB
+	Load Router Lookahead peak virtual memory usage = 358.28 MB
+Load Router Lookahead resident set memory usage: begin = 288.08 MB, end = 318.168 MB, delta = 30.088 MB
+	Load Router Lookahead peak resident set memory usage = 345.856 MB
+WARNING(1): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:14] No valid object(s) found for 'dsi_refclk_i'
+WARNING(2): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:14] No valid pin(s) found for clock
+WARNING(3): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING(4): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:24] No valid object(s) found for 'clk_pixel_2x'
+WARNING(5): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:24] No valid pin(s) found for clock
+WARNING(6): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:24] Unable to run 'create_clock' constraint due to warnings found
+WARNING(7): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:29] No valid object(s) found for 'clk_54m'
+WARNING(8): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:29] No valid pin(s) found for clock
+WARNING(9): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING(10): No ports matched 'csi_rxc_i'
+WARNING(11): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:34] No valid object(s) found for ''
+WARNING(12): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:34] No valid pin(s) found for clock
+WARNING(13): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:34] Unable to run 'create_clock' constraint due to warnings found
+WARNING(14): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:36] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING(15): No clocks matched 'csi_rxc_i'
+WARNING(16): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:49] No valid object(s) found for ''
+WARNING(17): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:49] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING(18): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:49] Unable to run 'set_false_path' constraint due to warnings found
+WARNING(19): No clocks matched 'csi_rxc_i'
+WARNING(20): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:50] No valid object(s) found for ''
+WARNING(21): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:50] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING(22): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:50] Unable to run 'set_false_path' constraint due to warnings found
+WARNING(23): No ports matched 'cmos_data[0]'
+WARNING(24): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:79] No valid object(s) found for ''
+WARNING(25): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:79] set_input_delay: No valid input port(s) found
+WARNING(26): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:79] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(27): No ports matched 'cmos_data[0]'
+WARNING(28): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:80] No valid object(s) found for ''
+WARNING(29): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:80] set_input_delay: No valid input port(s) found
+WARNING(30): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:80] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(31): No ports matched 'cmos_data[1]'
+WARNING(32): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:81] No valid object(s) found for ''
+WARNING(33): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:81] set_input_delay: No valid input port(s) found
+WARNING(34): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:81] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(35): No ports matched 'cmos_data[1]'
+WARNING(36): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:82] No valid object(s) found for ''
+WARNING(37): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:82] set_input_delay: No valid input port(s) found
+WARNING(38): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:82] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(39): No ports matched 'cmos_data[2]'
+WARNING(40): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:83] No valid object(s) found for ''
+WARNING(41): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:83] set_input_delay: No valid input port(s) found
+WARNING(42): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:83] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(43): No ports matched 'cmos_data[2]'
+WARNING(44): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:84] No valid object(s) found for ''
+WARNING(45): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:84] set_input_delay: No valid input port(s) found
+WARNING(46): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:84] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(47): No ports matched 'cmos_data[3]'
+WARNING(48): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:85] No valid object(s) found for ''
+WARNING(49): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:85] set_input_delay: No valid input port(s) found
+WARNING(50): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:85] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(51): No ports matched 'cmos_data[3]'
+WARNING(52): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:86] No valid object(s) found for ''
+WARNING(53): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:86] set_input_delay: No valid input port(s) found
+WARNING(54): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:86] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(55): No ports matched 'cmos_data[4]'
+WARNING(56): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:87] No valid object(s) found for ''
+WARNING(57): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:87] set_input_delay: No valid input port(s) found
+WARNING(58): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:87] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(59): No ports matched 'cmos_data[4]'
+WARNING(60): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:88] No valid object(s) found for ''
+WARNING(61): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:88] set_input_delay: No valid input port(s) found
+WARNING(62): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:88] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(63): No ports matched 'cmos_data[5]'
+WARNING(64): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:89] No valid object(s) found for ''
+WARNING(65): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:89] set_input_delay: No valid input port(s) found
+WARNING(66): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:89] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(67): No ports matched 'cmos_data[5]'
+WARNING(68): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:90] No valid object(s) found for ''
+WARNING(69): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:90] set_input_delay: No valid input port(s) found
+WARNING(70): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:90] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(71): No ports matched 'cmos_data[6]'
+WARNING(72): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:91] No valid object(s) found for ''
+WARNING(73): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:91] set_input_delay: No valid input port(s) found
+WARNING(74): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:91] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(75): No ports matched 'cmos_data[6]'
+WARNING(76): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:92] No valid object(s) found for ''
+WARNING(77): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:92] set_input_delay: No valid input port(s) found
+WARNING(78): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:92] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(79): No ports matched 'cmos_data[7]'
+WARNING(80): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:93] No valid object(s) found for ''
+WARNING(81): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:93] set_input_delay: No valid input port(s) found
+WARNING(82): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:93] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(83): No ports matched 'cmos_data[7]'
+WARNING(84): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:94] No valid object(s) found for ''
+WARNING(85): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:94] set_input_delay: No valid input port(s) found
+WARNING(86): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:94] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(87): No ports matched 'cmos_href'
+WARNING(88): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:95] No valid object(s) found for ''
+WARNING(89): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:95] set_input_delay: No valid input port(s) found
+WARNING(90): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:95] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(91): No ports matched 'cmos_href'
+WARNING(92): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:96] No valid object(s) found for ''
+WARNING(93): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:96] set_input_delay: No valid input port(s) found
+WARNING(94): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:96] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(95): No ports matched 'i_dqs_n_lo[0]'
+WARNING(96): No ports matched 'i_dqs_n_hi[0]'
+WARNING(97): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:342] No valid object(s) found for ''
+WARNING(98): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:342] set_input_delay: No valid input port(s) found
+WARNING(99): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:342] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(100): No ports matched 'i_dqs_n_lo[0]'
+WARNING(101): No ports matched 'i_dqs_n_hi[0]'
+WARNING(102): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:343] No valid object(s) found for ''
+WARNING(103): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:343] set_input_delay: No valid input port(s) found
+WARNING(104): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:343] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(105): No ports matched 'i_dqs_n_lo[1]'
+WARNING(106): No ports matched 'i_dqs_n_hi[1]'
+WARNING(107): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:348] No valid object(s) found for ''
+WARNING(108): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:348] set_input_delay: No valid input port(s) found
+WARNING(109): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:348] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(110): No ports matched 'i_dqs_n_lo[1]'
+WARNING(111): No ports matched 'i_dqs_n_hi[1]'
+WARNING(112): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:349] No valid object(s) found for ''
+WARNING(113): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:349] set_input_delay: No valid input port(s) found
+WARNING(114): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:349] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(115): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(116): No ports matched 'csi_rxd0_fifo_rd_o'
+WARNING(117): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:577] No clocks matched 'csi_rxc_i'
+WARNING(118): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:577] set_output_delay: No valid clock found for -clock
+WARNING(119): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:577] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(120): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(121): No ports matched 'csi_rxd0_fifo_rd_o'
+WARNING(122): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:578] No clocks matched 'csi_rxc_i'
+WARNING(123): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:578] set_output_delay: No valid clock found for -clock
+WARNING(124): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:578] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(125): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(126): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:579] No clocks matched 'csi_rxc_i'
+WARNING(127): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:579] set_output_delay: No valid clock found for -clock
+WARNING(128): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:579] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(129): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(130): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:580] No clocks matched 'csi_rxc_i'
+WARNING(131): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:580] set_output_delay: No valid clock found for -clock
+WARNING(132): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:580] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(133): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(134): No ports matched 'csi_rxd0_fifo_empty_i'
+WARNING(135): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:581] No clocks matched 'csi_rxc_i'
+WARNING(136): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:581] set_input_delay: No valid clock found for -clock
+WARNING(137): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:581] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(138): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(139): No ports matched 'csi_rxd0_fifo_empty_i'
+WARNING(140): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:582] No clocks matched 'csi_rxc_i'
+WARNING(141): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:582] set_input_delay: No valid clock found for -clock
+WARNING(142): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:582] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(143): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(144): No ports matched 'csi_rxd0_hs_i[*]'
+WARNING(145): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:583] No clocks matched 'csi_rxc_i'
+WARNING(146): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:583] set_input_delay: No valid clock found for -clock
+WARNING(147): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:583] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(148): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(149): No ports matched 'csi_rxd0_hs_i[*]'
+WARNING(150): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:584] No clocks matched 'csi_rxc_i'
+WARNING(151): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:584] set_input_delay: No valid clock found for -clock
+WARNING(152): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:584] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(153): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(154): No ports matched 'csi_rxd1_fifo_rd_o'
+WARNING(155): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:585] No clocks matched 'csi_rxc_i'
+WARNING(156): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:585] set_output_delay: No valid clock found for -clock
+WARNING(157): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:585] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(158): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(159): No ports matched 'csi_rxd1_fifo_rd_o'
+WARNING(160): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:586] No clocks matched 'csi_rxc_i'
+WARNING(161): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:586] set_output_delay: No valid clock found for -clock
+WARNING(162): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:586] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(163): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(164): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:587] No clocks matched 'csi_rxc_i'
+WARNING(165): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:587] set_output_delay: No valid clock found for -clock
+WARNING(166): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:587] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(167): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(168): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:588] No clocks matched 'csi_rxc_i'
+WARNING(169): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:588] set_output_delay: No valid clock found for -clock
+WARNING(170): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:588] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(171): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(172): No ports matched 'csi_rxd1_fifo_empty_i'
+WARNING(173): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:589] No clocks matched 'csi_rxc_i'
+WARNING(174): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:589] set_input_delay: No valid clock found for -clock
+WARNING(175): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:589] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(176): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(177): No ports matched 'csi_rxd1_fifo_empty_i'
+WARNING(178): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:590] No clocks matched 'csi_rxc_i'
+WARNING(179): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:590] set_input_delay: No valid clock found for -clock
+WARNING(180): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:590] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(181): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(182): No ports matched 'csi_rxd1_hs_i[*]'
+WARNING(183): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:591] No clocks matched 'csi_rxc_i'
+WARNING(184): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:591] set_input_delay: No valid clock found for -clock
+WARNING(185): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:591] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(186): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(187): No ports matched 'csi_rxd1_hs_i[*]'
+WARNING(188): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:592] No clocks matched 'csi_rxc_i'
+WARNING(189): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:592] set_input_delay: No valid clock found for -clock
+WARNING(190): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:592] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(191): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(192): No ports matched 'csi_rxd2_fifo_rd_o'
+WARNING(193): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:593] No clocks matched 'csi_rxc_i'
+WARNING(194): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:593] set_output_delay: No valid clock found for -clock
+WARNING(195): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:593] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(196): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(197): No ports matched 'csi_rxd2_fifo_rd_o'
+WARNING(198): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:594] No clocks matched 'csi_rxc_i'
+WARNING(199): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:594] set_output_delay: No valid clock found for -clock
+WARNING(200): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:594] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(201): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(202): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:595] No clocks matched 'csi_rxc_i'
+WARNING(203): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:595] set_output_delay: No valid clock found for -clock
+WARNING(204): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:595] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(205): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(206): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:596] No clocks matched 'csi_rxc_i'
+WARNING(207): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:596] set_output_delay: No valid clock found for -clock
+WARNING(208): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:596] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(209): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(210): No ports matched 'csi_rxd2_fifo_empty_i'
+WARNING(211): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:597] No clocks matched 'csi_rxc_i'
+WARNING(212): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:597] set_input_delay: No valid clock found for -clock
+WARNING(213): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:597] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(214): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(215): No ports matched 'csi_rxd2_fifo_empty_i'
+WARNING(216): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:598] No clocks matched 'csi_rxc_i'
+WARNING(217): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:598] set_input_delay: No valid clock found for -clock
+WARNING(218): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:598] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(219): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(220): No ports matched 'csi_rxd2_hs_i[*]'
+WARNING(221): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:599] No clocks matched 'csi_rxc_i'
+WARNING(222): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:599] set_input_delay: No valid clock found for -clock
+WARNING(223): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:599] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(224): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(225): No ports matched 'csi_rxd2_hs_i[*]'
+WARNING(226): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:600] No clocks matched 'csi_rxc_i'
+WARNING(227): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:600] set_input_delay: No valid clock found for -clock
+WARNING(228): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:600] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(229): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(230): No ports matched 'csi_rxd3_fifo_rd_o'
+WARNING(231): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:601] No clocks matched 'csi_rxc_i'
+WARNING(232): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:601] set_output_delay: No valid clock found for -clock
+WARNING(233): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:601] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(234): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(235): No ports matched 'csi_rxd3_fifo_rd_o'
+WARNING(236): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:602] No clocks matched 'csi_rxc_i'
+WARNING(237): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:602] set_output_delay: No valid clock found for -clock
+WARNING(238): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:602] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(239): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(240): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:603] No clocks matched 'csi_rxc_i'
+WARNING(241): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:603] set_output_delay: No valid clock found for -clock
+WARNING(242): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:603] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(243): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(244): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:604] No clocks matched 'csi_rxc_i'
+WARNING(245): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:604] set_output_delay: No valid clock found for -clock
+WARNING(246): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:604] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(247): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(248): No ports matched 'csi_rxd3_fifo_empty_i'
+WARNING(249): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:605] No clocks matched 'csi_rxc_i'
+WARNING(250): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:605] set_input_delay: No valid clock found for -clock
+WARNING(251): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:605] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(252): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(253): No ports matched 'csi_rxd3_fifo_empty_i'
+WARNING(254): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:606] No clocks matched 'csi_rxc_i'
+WARNING(255): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:606] set_input_delay: No valid clock found for -clock
+WARNING(256): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:606] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(257): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(258): No ports matched 'csi_rxd3_hs_i[*]'
+WARNING(259): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:607] No clocks matched 'csi_rxc_i'
+WARNING(260): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:607] set_input_delay: No valid clock found for -clock
+WARNING(261): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:607] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(262): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(263): No ports matched 'csi_rxd3_hs_i[*]'
+WARNING(264): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:608] No clocks matched 'csi_rxc_i'
+WARNING(265): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:608] set_input_delay: No valid clock found for -clock
+WARNING(266): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:608] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc' parsed successfully.
+14 clocks (including virtual clocks), 37 inputs and 232 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.interface.csv".
+Writing IO placement constraints to 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow\Ti60_Demo.interface.io'.
+
+Reading placement constraints from 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow\Ti60_Demo.interface.io'.
+
+Reading placement constraints from 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/work_pnr\Ti60_Demo.io_place'.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Found 184 synchronizers as follows: 
+	Synchronizer 0:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i14_2
+	Synchronizer 1:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i29_2
+	Synchronizer 2:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i28_2
+	Synchronizer 3:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i27_2
+	Synchronizer 4:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i26_2
+	Synchronizer 5:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i25_2
+	Synchronizer 6:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i24_2
+	Synchronizer 7:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i23_2
+	Synchronizer 8:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i32_2
+	Synchronizer 9:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i31_2
+	Synchronizer 10:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i30_2
+	Synchronizer 11:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i29_2
+	Synchronizer 12:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i28_2
+	Synchronizer 13:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i27_2
+	Synchronizer 14:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i14_2
+	Synchronizer 15:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i31_2
+	Synchronizer 16:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i30_2
+	Synchronizer 17:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 18:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i29_2
+	Synchronizer 19:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i28_2
+	Synchronizer 20:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i27_2
+	Synchronizer 21:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i36_2
+	Synchronizer 22:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 23:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 24:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i35_2
+	Synchronizer 25:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 26:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i33_2
+	Synchronizer 27:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 28:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i36_2
+	Synchronizer 29:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i29_2
+	Synchronizer 30:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 31:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i28_2
+	Synchronizer 32:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 33:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i27_2
+	Synchronizer 34:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i26_2
+	Synchronizer 35:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i25_2
+	Synchronizer 36:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i24_2
+	Synchronizer 37:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i13_2
+	Synchronizer 38:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i12_2
+	Synchronizer 39:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i11_2
+	Synchronizer 40:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i10_2
+	Synchronizer 41:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i9_2
+	Synchronizer 42:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i8_2
+	Synchronizer 43:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i18_2
+	Synchronizer 44:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i34_2
+	Synchronizer 45:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i17_2
+	Synchronizer 46:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i16_2
+	Synchronizer 47:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i28_2
+	Synchronizer 48:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i15_2
+	Synchronizer 49:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 50:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i23_2
+	Synchronizer 51:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i22_2
+	Synchronizer 52:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 53:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 54:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 55:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i32_2
+	Synchronizer 56:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 57:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 58:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 59:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 60:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 61:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 62:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 63:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 64:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 65:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 66:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 67:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 68:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 69:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 70:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 71:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 72:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 73:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 74:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 75:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 76:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 77:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i8_2
+	Synchronizer 78:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i25_2
+	Synchronizer 79:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i21_2
+	Synchronizer 80:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 81:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 82:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 83:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i9_2
+	Synchronizer 84:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i26_2
+	Synchronizer 85:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i22_2
+	Synchronizer 86:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 87:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i10_2
+	Synchronizer 88:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 89:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i27_2
+	Synchronizer 90:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i11_2
+	Synchronizer 91:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 92:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i30_2
+	Synchronizer 93:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 94:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 95:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i12_2
+	Synchronizer 96:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 97:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i28_2
+	Synchronizer 98:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 99:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 100:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/get_wr_ack[2]~FF
+	Synchronizer 101:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/genblk2.rd_rst[0]~FF u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 102:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 103:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 104:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i13_2
+	Synchronizer 105:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 106:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i16_2
+	Synchronizer 107:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 108:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 109:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 110:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/genblk2.wr_rst[0]~FF u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 111:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 112:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 113:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 114:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i17_2
+	Synchronizer 115:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 116:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 117:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 118:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 119:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i18_2
+	Synchronizer 120:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 121:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 122:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i19_2
+	Synchronizer 123:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 124:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/ram_rd_ack_a[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/ram_rd_ack_a[1]~FF
+	Synchronizer 125:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 126:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 127:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 128:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 129:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 130:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/ram_wr_ack_p~FF
+	Synchronizer 131:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/ram_wr_ack_p1~FF
+	Synchronizer 132:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 133:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i33_2
+	Synchronizer 134:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 135:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i34_2
+	Synchronizer 136:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 137:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i35_2
+	Synchronizer 138:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 139:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i30_2
+	Synchronizer 140:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 141:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i19_2
+	Synchronizer 142:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i20_2
+	Synchronizer 143:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i21_2
+	Synchronizer 144:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 145:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 146:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 147:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 148:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 149:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 150:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 151:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 152:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 153:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 154:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 155:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 156:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 157:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dq_pipe_ap[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dq_pipe_ap[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/w_wr_fifo_rd_en~FF
+	Synchronizer 158:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i24_2
+	Synchronizer 159:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i21_2
+	Synchronizer 160:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 161:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i22_2
+	Synchronizer 162:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dq_pipe_ap[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dq_pipe_ap[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dq_pipe_ap[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dq_pipe_ap[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dq_pipe_ap[7]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dq_pipe_ap[8]~FF
+	Synchronizer 163:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i23_2
+	Synchronizer 164:  u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i24_2
+	Synchronizer 165:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/get_dqs_wr_start_p[2]~FF
+	Synchronizer 166:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/get_wr_ack[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/get_wr_ack[1]~FF
+	Synchronizer 167:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/get_dqs_wr_start_p[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/get_dqs_wr_start_p[1]~FF
+	Synchronizer 168:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_wr_start_p[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_wr_start_p[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_wr_start_p[2]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_wr_start_p[3]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_wr_start_p[4]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_wr_start_p[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_wr_start_p[6]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_wr_start_p[7]~FF
+	Synchronizer 169:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/ram_rd_ack_ap[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/ram_rd_ack_ap[1]~FF
+	Synchronizer 170:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/genblk2.rd_rst[0]~FF u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 171:  u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/genblk2.wr_rst[0]~FF u_axi4_ctrl/Gen_RFIFO_32.u_R0_FIFO_32/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 172:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/ram_rd_ack_ap[2]~FF
+	Synchronizer 173:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[5]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 174:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i20_2
+	Synchronizer 175:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i21_2
+	Synchronizer 176:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i22_2
+	Synchronizer 177:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i23_2
+	Synchronizer 178:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[0]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 179:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i15_2
+	Synchronizer 180:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i25_2
+	Synchronizer 181:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i26_2
+	Synchronizer 182:  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[1]~FF ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 183:  u_bilinear_interpolation/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i27_2
+Create C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow\Ti60_Demo_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+Starting Global Placer with 2 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1     1614682             246         3.3%
+          2      705625             163         6.9%
+          3      515223             163        11.5%
+          4      444249             163        16.0%
+          5      385797             163        20.6%
+          6      345753             163        25.6%
+          7      333310             163        31.3%
+          8      298175             246        44.2%
+          9      281297             163        53.2%
+         10      260084             163        65.0%
+         11      254106             163        71.4%
+         12      240096              81        76.1%
+         13      235342             163        78.5%
+         14      232714             163        80.1%
+         15      232795              81        81.0%
+         16      231418             163        81.7%
+         17      229476             163        82.7%
+         18      229850             163        84.0%
+         19      228061             163        85.0%
+         20      227912             163        86.2%
+         21      228007             163        87.3%
+         22      226558             163        88.5%
+         23      227566             163        89.2%
+         24      226772              81        90.4%
+         25      227334              81        91.1%
+         26      226741              81        91.9%
+         27      227500              81        93.1%
+         28      228688              81        93.6%
+         29      229060              81        94.2%
+         30      230229              81        94.6%
+         31      230422              81        95.0%
+         32      230841              81        95.5%
+         33      212840              81        95.5%
+         34      212974              81        99.0%
+         35      212868              81        99.4%
+         36      212961              81        99.7%
+         37      213597              18        99.7%
+         38      213865              81        99.8%
+         39      214446              81        99.8%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      212840             460        30.0
+          1      199163             434        29.9
+          2      186480             434        29.0
+          3      178232             432        27.7
+          4      173336             531        26.3
+          5      170097             531        24.7
+          6      166776             418        23.1
+          7      164793             379        21.5
+          8      162626             349        20.0
+          9      161153             349        18.4
+         10      158324             424        17.0
+         11      156856             368        15.5
+         12      155200             368        14.2
+         13      153538             368        13.0
+         14      152500             368        11.8
+         15      151794             453        10.7
+         16      151868             432         9.7
+         17      150598             379         8.8
+         18      150586             381         8.0
+         19      149670             358         7.2
+         20      148435             358         6.5
+Generate C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow\Ti60_Demo_after_qp.qdelay
+Placement successful: 8011 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.289851 at 92,67
+Congestion-weighted HPWL per net: 10.9458
+
+Reading placement constraints from 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.qplace'.
+Finished Realigning Types (1729 blocks needed type change)
+Run checks after placement.
+WARNING(267): Clock net hdmi_pclk_i should not drive a normal pad, led_o[0]. Clock should only drive clkout pads defined in Interface Designer.
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.place'
+Placement took 53.3037 seconds.
+	Placement took 22.9219 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 330.54 MB, end = 364.612 MB, delta = 34.072 MB
+	Placement peak virtual memory usage = 589.712 MB
+Placement resident set memory usage: begin = 318.172 MB, end = 348.324 MB, delta = 30.152 MB
+	Placement peak resident set memory usage = 562.572 MB
+***** Ending stage placement *****
+

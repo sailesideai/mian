@@ -1,0 +1,679 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Compiled: May 19 2024.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Titanium", Device "Ti60F225" ...
+
+***** Beginning stage routing ... *****
+WARNING(1): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:14] No valid object(s) found for 'dsi_refclk_i'
+WARNING(2): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:14] No valid pin(s) found for clock
+WARNING(3): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING(4): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:24] No valid object(s) found for 'clk_pixel_2x'
+WARNING(5): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:24] No valid pin(s) found for clock
+WARNING(6): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:24] Unable to run 'create_clock' constraint due to warnings found
+WARNING(7): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:29] No valid object(s) found for 'clk_54m'
+WARNING(8): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:29] No valid pin(s) found for clock
+WARNING(9): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING(10): No ports matched 'csi_rxc_i'
+WARNING(11): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:34] No valid object(s) found for ''
+WARNING(12): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:34] No valid pin(s) found for clock
+WARNING(13): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:34] Unable to run 'create_clock' constraint due to warnings found
+WARNING(14): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:36] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING(15): No clocks matched 'csi_rxc_i'
+WARNING(16): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:49] No valid object(s) found for ''
+WARNING(17): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:49] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING(18): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:49] Unable to run 'set_false_path' constraint due to warnings found
+WARNING(19): No clocks matched 'csi_rxc_i'
+WARNING(20): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:50] No valid object(s) found for ''
+WARNING(21): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:50] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING(22): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:50] Unable to run 'set_false_path' constraint due to warnings found
+WARNING(23): No ports matched 'cmos_data[0]'
+WARNING(24): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:79] No valid object(s) found for ''
+WARNING(25): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:79] set_input_delay: No valid input port(s) found
+WARNING(26): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:79] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(27): No ports matched 'cmos_data[0]'
+WARNING(28): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:80] No valid object(s) found for ''
+WARNING(29): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:80] set_input_delay: No valid input port(s) found
+WARNING(30): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:80] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(31): No ports matched 'cmos_data[1]'
+WARNING(32): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:81] No valid object(s) found for ''
+WARNING(33): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:81] set_input_delay: No valid input port(s) found
+WARNING(34): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:81] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(35): No ports matched 'cmos_data[1]'
+WARNING(36): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:82] No valid object(s) found for ''
+WARNING(37): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:82] set_input_delay: No valid input port(s) found
+WARNING(38): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:82] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(39): No ports matched 'cmos_data[2]'
+WARNING(40): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:83] No valid object(s) found for ''
+WARNING(41): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:83] set_input_delay: No valid input port(s) found
+WARNING(42): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:83] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(43): No ports matched 'cmos_data[2]'
+WARNING(44): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:84] No valid object(s) found for ''
+WARNING(45): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:84] set_input_delay: No valid input port(s) found
+WARNING(46): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:84] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(47): No ports matched 'cmos_data[3]'
+WARNING(48): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:85] No valid object(s) found for ''
+WARNING(49): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:85] set_input_delay: No valid input port(s) found
+WARNING(50): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:85] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(51): No ports matched 'cmos_data[3]'
+WARNING(52): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:86] No valid object(s) found for ''
+WARNING(53): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:86] set_input_delay: No valid input port(s) found
+WARNING(54): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:86] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(55): No ports matched 'cmos_data[4]'
+WARNING(56): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:87] No valid object(s) found for ''
+WARNING(57): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:87] set_input_delay: No valid input port(s) found
+WARNING(58): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:87] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(59): No ports matched 'cmos_data[4]'
+WARNING(60): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:88] No valid object(s) found for ''
+WARNING(61): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:88] set_input_delay: No valid input port(s) found
+WARNING(62): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:88] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(63): No ports matched 'cmos_data[5]'
+WARNING(64): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:89] No valid object(s) found for ''
+WARNING(65): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:89] set_input_delay: No valid input port(s) found
+WARNING(66): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:89] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(67): No ports matched 'cmos_data[5]'
+WARNING(68): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:90] No valid object(s) found for ''
+WARNING(69): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:90] set_input_delay: No valid input port(s) found
+WARNING(70): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:90] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(71): No ports matched 'cmos_data[6]'
+WARNING(72): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:91] No valid object(s) found for ''
+WARNING(73): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:91] set_input_delay: No valid input port(s) found
+WARNING(74): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:91] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(75): No ports matched 'cmos_data[6]'
+WARNING(76): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:92] No valid object(s) found for ''
+WARNING(77): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:92] set_input_delay: No valid input port(s) found
+WARNING(78): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:92] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(79): No ports matched 'cmos_data[7]'
+WARNING(80): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:93] No valid object(s) found for ''
+WARNING(81): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:93] set_input_delay: No valid input port(s) found
+WARNING(82): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:93] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(83): No ports matched 'cmos_data[7]'
+WARNING(84): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:94] No valid object(s) found for ''
+WARNING(85): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:94] set_input_delay: No valid input port(s) found
+WARNING(86): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:94] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(87): No ports matched 'cmos_href'
+WARNING(88): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:95] No valid object(s) found for ''
+WARNING(89): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:95] set_input_delay: No valid input port(s) found
+WARNING(90): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:95] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(91): No ports matched 'cmos_href'
+WARNING(92): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:96] No valid object(s) found for ''
+WARNING(93): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:96] set_input_delay: No valid input port(s) found
+WARNING(94): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:96] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(95): No ports matched 'i_dqs_n_lo[0]'
+WARNING(96): No ports matched 'i_dqs_n_hi[0]'
+WARNING(97): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:342] No valid object(s) found for ''
+WARNING(98): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:342] set_input_delay: No valid input port(s) found
+WARNING(99): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:342] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(100): No ports matched 'i_dqs_n_lo[0]'
+WARNING(101): No ports matched 'i_dqs_n_hi[0]'
+WARNING(102): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:343] No valid object(s) found for ''
+WARNING(103): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:343] set_input_delay: No valid input port(s) found
+WARNING(104): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:343] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(105): No ports matched 'i_dqs_n_lo[1]'
+WARNING(106): No ports matched 'i_dqs_n_hi[1]'
+WARNING(107): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:348] No valid object(s) found for ''
+WARNING(108): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:348] set_input_delay: No valid input port(s) found
+WARNING(109): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:348] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(110): No ports matched 'i_dqs_n_lo[1]'
+WARNING(111): No ports matched 'i_dqs_n_hi[1]'
+WARNING(112): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:349] No valid object(s) found for ''
+WARNING(113): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:349] set_input_delay: No valid input port(s) found
+WARNING(114): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:349] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(115): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(116): No ports matched 'csi_rxd0_fifo_rd_o'
+WARNING(117): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:577] No clocks matched 'csi_rxc_i'
+WARNING(118): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:577] set_output_delay: No valid clock found for -clock
+WARNING(119): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:577] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(120): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(121): No ports matched 'csi_rxd0_fifo_rd_o'
+WARNING(122): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:578] No clocks matched 'csi_rxc_i'
+WARNING(123): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:578] set_output_delay: No valid clock found for -clock
+WARNING(124): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:578] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(125): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(126): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:579] No clocks matched 'csi_rxc_i'
+WARNING(127): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:579] set_output_delay: No valid clock found for -clock
+WARNING(128): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:579] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(129): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(130): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:580] No clocks matched 'csi_rxc_i'
+WARNING(131): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:580] set_output_delay: No valid clock found for -clock
+WARNING(132): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:580] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(133): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(134): No ports matched 'csi_rxd0_fifo_empty_i'
+WARNING(135): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:581] No clocks matched 'csi_rxc_i'
+WARNING(136): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:581] set_input_delay: No valid clock found for -clock
+WARNING(137): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:581] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(138): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(139): No ports matched 'csi_rxd0_fifo_empty_i'
+WARNING(140): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:582] No clocks matched 'csi_rxc_i'
+WARNING(141): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:582] set_input_delay: No valid clock found for -clock
+WARNING(142): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:582] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(143): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(144): No ports matched 'csi_rxd0_hs_i[*]'
+WARNING(145): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:583] No clocks matched 'csi_rxc_i'
+WARNING(146): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:583] set_input_delay: No valid clock found for -clock
+WARNING(147): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:583] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(148): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(149): No ports matched 'csi_rxd0_hs_i[*]'
+WARNING(150): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:584] No clocks matched 'csi_rxc_i'
+WARNING(151): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:584] set_input_delay: No valid clock found for -clock
+WARNING(152): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:584] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(153): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(154): No ports matched 'csi_rxd1_fifo_rd_o'
+WARNING(155): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:585] No clocks matched 'csi_rxc_i'
+WARNING(156): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:585] set_output_delay: No valid clock found for -clock
+WARNING(157): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:585] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(158): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(159): No ports matched 'csi_rxd1_fifo_rd_o'
+WARNING(160): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:586] No clocks matched 'csi_rxc_i'
+WARNING(161): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:586] set_output_delay: No valid clock found for -clock
+WARNING(162): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:586] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(163): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(164): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:587] No clocks matched 'csi_rxc_i'
+WARNING(165): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:587] set_output_delay: No valid clock found for -clock
+WARNING(166): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:587] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(167): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(168): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:588] No clocks matched 'csi_rxc_i'
+WARNING(169): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:588] set_output_delay: No valid clock found for -clock
+WARNING(170): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:588] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(171): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(172): No ports matched 'csi_rxd1_fifo_empty_i'
+WARNING(173): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:589] No clocks matched 'csi_rxc_i'
+WARNING(174): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:589] set_input_delay: No valid clock found for -clock
+WARNING(175): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:589] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(176): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(177): No ports matched 'csi_rxd1_fifo_empty_i'
+WARNING(178): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:590] No clocks matched 'csi_rxc_i'
+WARNING(179): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:590] set_input_delay: No valid clock found for -clock
+WARNING(180): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:590] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(181): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(182): No ports matched 'csi_rxd1_hs_i[*]'
+WARNING(183): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:591] No clocks matched 'csi_rxc_i'
+WARNING(184): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:591] set_input_delay: No valid clock found for -clock
+WARNING(185): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:591] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(186): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(187): No ports matched 'csi_rxd1_hs_i[*]'
+WARNING(188): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:592] No clocks matched 'csi_rxc_i'
+WARNING(189): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:592] set_input_delay: No valid clock found for -clock
+WARNING(190): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:592] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(191): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(192): No ports matched 'csi_rxd2_fifo_rd_o'
+WARNING(193): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:593] No clocks matched 'csi_rxc_i'
+WARNING(194): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:593] set_output_delay: No valid clock found for -clock
+WARNING(195): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:593] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(196): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(197): No ports matched 'csi_rxd2_fifo_rd_o'
+WARNING(198): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:594] No clocks matched 'csi_rxc_i'
+WARNING(199): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:594] set_output_delay: No valid clock found for -clock
+WARNING(200): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:594] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(201): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(202): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:595] No clocks matched 'csi_rxc_i'
+WARNING(203): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:595] set_output_delay: No valid clock found for -clock
+WARNING(204): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:595] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(205): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(206): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:596] No clocks matched 'csi_rxc_i'
+WARNING(207): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:596] set_output_delay: No valid clock found for -clock
+WARNING(208): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:596] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(209): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(210): No ports matched 'csi_rxd2_fifo_empty_i'
+WARNING(211): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:597] No clocks matched 'csi_rxc_i'
+WARNING(212): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:597] set_input_delay: No valid clock found for -clock
+WARNING(213): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:597] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(214): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(215): No ports matched 'csi_rxd2_fifo_empty_i'
+WARNING(216): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:598] No clocks matched 'csi_rxc_i'
+WARNING(217): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:598] set_input_delay: No valid clock found for -clock
+WARNING(218): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:598] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(219): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(220): No ports matched 'csi_rxd2_hs_i[*]'
+WARNING(221): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:599] No clocks matched 'csi_rxc_i'
+WARNING(222): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:599] set_input_delay: No valid clock found for -clock
+WARNING(223): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:599] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(224): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(225): No ports matched 'csi_rxd2_hs_i[*]'
+WARNING(226): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:600] No clocks matched 'csi_rxc_i'
+WARNING(227): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:600] set_input_delay: No valid clock found for -clock
+WARNING(228): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:600] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(229): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(230): No ports matched 'csi_rxd3_fifo_rd_o'
+WARNING(231): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:601] No clocks matched 'csi_rxc_i'
+WARNING(232): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:601] set_output_delay: No valid clock found for -clock
+WARNING(233): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:601] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(234): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(235): No ports matched 'csi_rxd3_fifo_rd_o'
+WARNING(236): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:602] No clocks matched 'csi_rxc_i'
+WARNING(237): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:602] set_output_delay: No valid clock found for -clock
+WARNING(238): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:602] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(239): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(240): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:603] No clocks matched 'csi_rxc_i'
+WARNING(241): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:603] set_output_delay: No valid clock found for -clock
+WARNING(242): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:603] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(243): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(244): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:604] No clocks matched 'csi_rxc_i'
+WARNING(245): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:604] set_output_delay: No valid clock found for -clock
+WARNING(246): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:604] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(247): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(248): No ports matched 'csi_rxd3_fifo_empty_i'
+WARNING(249): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:605] No clocks matched 'csi_rxc_i'
+WARNING(250): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:605] set_input_delay: No valid clock found for -clock
+WARNING(251): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:605] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(252): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(253): No ports matched 'csi_rxd3_fifo_empty_i'
+WARNING(254): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:606] No clocks matched 'csi_rxc_i'
+WARNING(255): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:606] set_input_delay: No valid clock found for -clock
+WARNING(256): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:606] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(257): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(258): No ports matched 'csi_rxd3_hs_i[*]'
+WARNING(259): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:607] No clocks matched 'csi_rxc_i'
+WARNING(260): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:607] set_input_delay: No valid clock found for -clock
+WARNING(261): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:607] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(262): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(263): No ports matched 'csi_rxd3_hs_i[*]'
+WARNING(264): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:608] No clocks matched 'csi_rxc_i'
+WARNING(265): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:608] set_input_delay: No valid clock found for -clock
+WARNING(266): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:608] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc' parsed successfully.
+14 clocks (including virtual clocks), 37 inputs and 232 outputs were constrained.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Router Setup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Setup Parallel Routing Scheduler]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Route Circuit with 2 threads
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CSS enabled! Optimizing clock skews ... 
+Non-legalized beneficial skew improved geomean CPD by 1.08% (from 2780ps to 2750ps)
+CSS improved CPD of clock core_clk by 0.00% (from 4395ps to 4395ps)
+CSS improved CPD of clock tac_clk by 0.00% (from 2190ps to 2190ps)
+CSS improved CPD of clock twd_clk by 0.00% (from 2234ps to 2234ps)
+Discretized beneficial skew improved geomean CPD by 0.00% (from 2780ps to 2780ps in 5 iterations and 1.1 sec)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Iter  1: overlap=14618   heapops=2255005    (0%) cpd=2234  frr=1.00  msec=3187
+[Setup Delay Budgets | 457.8 ms]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hold Fixing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total min wire delay:   1601490
+Hold fix wire delay:        227
+Hold fix delay ratio:     0.01%
+Pins requiring hold fix:  0.00%
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Iter  2: overlap=2209    heapops=1425439    (49%) cpd=2237  frr=1.00  msec=748
+Iter  3: overlap=427     heapops=494393     (77%) cpd=2259  frr=1.01  msec=470
+[Rebuild Parallel Routing Scheduler]
+Iter  4: overlap=73      heapops=176320     (84%) cpd=2259  frr=1.01  msec=585
+Iter  5: overlap=17      heapops=79279      (86%) cpd=2259  frr=1.01  msec=330
+Iter  6: overlap=10      heapops=33110      (86%) cpd=2259  frr=1.01  msec=332
+Iter  7: overlap=1       heapops=29508      (86%) cpd=2259  frr=1.01  msec=318
+Iter  8: overlap=0       heapops=29749      (85%) cpd=2259  frr=1.01  msec=309
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Routing Result
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Routing Succeeded in 7.23 seconds taking 8 iterations! 
+
+First iteration critical path delay = 2.234 ns 
+Last iteration critical path delay  = 2.259 ns (ratio = 1.01)
+Max Routing Heap Size = 6,506
+Routing trace written to file 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.troutingtraces' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Routing took 22.0197 seconds.
+	Routing took 14.3438 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 364.612 MB, end = 785.18 MB, delta = 420.568 MB
+	Routing peak virtual memory usage = 814.096 MB
+Routing resident set memory usage: begin = 348.332 MB, end = 746.464 MB, delta = 398.132 MB
+	Routing peak resident set memory usage = 774.92 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+WARNING(267): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:14] No valid object(s) found for 'dsi_refclk_i'
+WARNING(268): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:14] No valid pin(s) found for clock
+WARNING(269): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING(270): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:24] No valid object(s) found for 'clk_pixel_2x'
+WARNING(271): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:24] No valid pin(s) found for clock
+WARNING(272): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:24] Unable to run 'create_clock' constraint due to warnings found
+WARNING(273): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:29] No valid object(s) found for 'clk_54m'
+WARNING(274): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:29] No valid pin(s) found for clock
+WARNING(275): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING(276): No ports matched 'csi_rxc_i'
+WARNING(277): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:34] No valid object(s) found for ''
+WARNING(278): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:34] No valid pin(s) found for clock
+WARNING(279): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:34] Unable to run 'create_clock' constraint due to warnings found
+WARNING(280): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:36] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING(281): No clocks matched 'csi_rxc_i'
+WARNING(282): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:49] No valid object(s) found for ''
+WARNING(283): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:49] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING(284): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:49] Unable to run 'set_false_path' constraint due to warnings found
+WARNING(285): No clocks matched 'csi_rxc_i'
+WARNING(286): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:50] No valid object(s) found for ''
+WARNING(287): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:50] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING(288): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:50] Unable to run 'set_false_path' constraint due to warnings found
+WARNING(289): No ports matched 'cmos_data[0]'
+WARNING(290): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:79] No valid object(s) found for ''
+WARNING(291): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:79] set_input_delay: No valid input port(s) found
+WARNING(292): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:79] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(293): No ports matched 'cmos_data[0]'
+WARNING(294): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:80] No valid object(s) found for ''
+WARNING(295): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:80] set_input_delay: No valid input port(s) found
+WARNING(296): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:80] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(297): No ports matched 'cmos_data[1]'
+WARNING(298): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:81] No valid object(s) found for ''
+WARNING(299): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:81] set_input_delay: No valid input port(s) found
+WARNING(300): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:81] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(301): No ports matched 'cmos_data[1]'
+WARNING(302): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:82] No valid object(s) found for ''
+WARNING(303): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:82] set_input_delay: No valid input port(s) found
+WARNING(304): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:82] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(305): No ports matched 'cmos_data[2]'
+WARNING(306): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:83] No valid object(s) found for ''
+WARNING(307): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:83] set_input_delay: No valid input port(s) found
+WARNING(308): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:83] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(309): No ports matched 'cmos_data[2]'
+WARNING(310): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:84] No valid object(s) found for ''
+WARNING(311): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:84] set_input_delay: No valid input port(s) found
+WARNING(312): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:84] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(313): No ports matched 'cmos_data[3]'
+WARNING(314): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:85] No valid object(s) found for ''
+WARNING(315): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:85] set_input_delay: No valid input port(s) found
+WARNING(316): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:85] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(317): No ports matched 'cmos_data[3]'
+WARNING(318): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:86] No valid object(s) found for ''
+WARNING(319): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:86] set_input_delay: No valid input port(s) found
+WARNING(320): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:86] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(321): No ports matched 'cmos_data[4]'
+WARNING(322): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:87] No valid object(s) found for ''
+WARNING(323): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:87] set_input_delay: No valid input port(s) found
+WARNING(324): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:87] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(325): No ports matched 'cmos_data[4]'
+WARNING(326): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:88] No valid object(s) found for ''
+WARNING(327): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:88] set_input_delay: No valid input port(s) found
+WARNING(328): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:88] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(329): No ports matched 'cmos_data[5]'
+WARNING(330): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:89] No valid object(s) found for ''
+WARNING(331): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:89] set_input_delay: No valid input port(s) found
+WARNING(332): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:89] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(333): No ports matched 'cmos_data[5]'
+WARNING(334): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:90] No valid object(s) found for ''
+WARNING(335): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:90] set_input_delay: No valid input port(s) found
+WARNING(336): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:90] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(337): No ports matched 'cmos_data[6]'
+WARNING(338): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:91] No valid object(s) found for ''
+WARNING(339): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:91] set_input_delay: No valid input port(s) found
+WARNING(340): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:91] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(341): No ports matched 'cmos_data[6]'
+WARNING(342): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:92] No valid object(s) found for ''
+WARNING(343): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:92] set_input_delay: No valid input port(s) found
+WARNING(344): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:92] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(345): No ports matched 'cmos_data[7]'
+WARNING(346): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:93] No valid object(s) found for ''
+WARNING(347): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:93] set_input_delay: No valid input port(s) found
+WARNING(348): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:93] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(349): No ports matched 'cmos_data[7]'
+WARNING(350): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:94] No valid object(s) found for ''
+WARNING(351): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:94] set_input_delay: No valid input port(s) found
+WARNING(352): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:94] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(353): No ports matched 'cmos_href'
+WARNING(354): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:95] No valid object(s) found for ''
+WARNING(355): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:95] set_input_delay: No valid input port(s) found
+WARNING(356): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:95] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(357): No ports matched 'cmos_href'
+WARNING(358): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:96] No valid object(s) found for ''
+WARNING(359): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:96] set_input_delay: No valid input port(s) found
+WARNING(360): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:96] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(361): No ports matched 'i_dqs_n_lo[0]'
+WARNING(362): No ports matched 'i_dqs_n_hi[0]'
+WARNING(363): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:342] No valid object(s) found for ''
+WARNING(364): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:342] set_input_delay: No valid input port(s) found
+WARNING(365): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:342] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(366): No ports matched 'i_dqs_n_lo[0]'
+WARNING(367): No ports matched 'i_dqs_n_hi[0]'
+WARNING(368): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:343] No valid object(s) found for ''
+WARNING(369): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:343] set_input_delay: No valid input port(s) found
+WARNING(370): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:343] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(371): No ports matched 'i_dqs_n_lo[1]'
+WARNING(372): No ports matched 'i_dqs_n_hi[1]'
+WARNING(373): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:348] No valid object(s) found for ''
+WARNING(374): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:348] set_input_delay: No valid input port(s) found
+WARNING(375): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:348] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(376): No ports matched 'i_dqs_n_lo[1]'
+WARNING(377): No ports matched 'i_dqs_n_hi[1]'
+WARNING(378): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:349] No valid object(s) found for ''
+WARNING(379): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:349] set_input_delay: No valid input port(s) found
+WARNING(380): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:349] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(381): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(382): No ports matched 'csi_rxd0_fifo_rd_o'
+WARNING(383): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:577] No clocks matched 'csi_rxc_i'
+WARNING(384): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:577] set_output_delay: No valid clock found for -clock
+WARNING(385): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:577] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(386): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(387): No ports matched 'csi_rxd0_fifo_rd_o'
+WARNING(388): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:578] No clocks matched 'csi_rxc_i'
+WARNING(389): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:578] set_output_delay: No valid clock found for -clock
+WARNING(390): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:578] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(391): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(392): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:579] No clocks matched 'csi_rxc_i'
+WARNING(393): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:579] set_output_delay: No valid clock found for -clock
+WARNING(394): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:579] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(395): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(396): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:580] No clocks matched 'csi_rxc_i'
+WARNING(397): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:580] set_output_delay: No valid clock found for -clock
+WARNING(398): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:580] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(399): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(400): No ports matched 'csi_rxd0_fifo_empty_i'
+WARNING(401): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:581] No clocks matched 'csi_rxc_i'
+WARNING(402): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:581] set_input_delay: No valid clock found for -clock
+WARNING(403): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:581] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(404): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(405): No ports matched 'csi_rxd0_fifo_empty_i'
+WARNING(406): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:582] No clocks matched 'csi_rxc_i'
+WARNING(407): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:582] set_input_delay: No valid clock found for -clock
+WARNING(408): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:582] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(409): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(410): No ports matched 'csi_rxd0_hs_i[*]'
+WARNING(411): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:583] No clocks matched 'csi_rxc_i'
+WARNING(412): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:583] set_input_delay: No valid clock found for -clock
+WARNING(413): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:583] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(414): No ports matched 'csi_rxc_i~CLKOUT~218~278'
+WARNING(415): No ports matched 'csi_rxd0_hs_i[*]'
+WARNING(416): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:584] No clocks matched 'csi_rxc_i'
+WARNING(417): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:584] set_input_delay: No valid clock found for -clock
+WARNING(418): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:584] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(419): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(420): No ports matched 'csi_rxd1_fifo_rd_o'
+WARNING(421): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:585] No clocks matched 'csi_rxc_i'
+WARNING(422): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:585] set_output_delay: No valid clock found for -clock
+WARNING(423): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:585] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(424): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(425): No ports matched 'csi_rxd1_fifo_rd_o'
+WARNING(426): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:586] No clocks matched 'csi_rxc_i'
+WARNING(427): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:586] set_output_delay: No valid clock found for -clock
+WARNING(428): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:586] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(429): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(430): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:587] No clocks matched 'csi_rxc_i'
+WARNING(431): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:587] set_output_delay: No valid clock found for -clock
+WARNING(432): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:587] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(433): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(434): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:588] No clocks matched 'csi_rxc_i'
+WARNING(435): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:588] set_output_delay: No valid clock found for -clock
+WARNING(436): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:588] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(437): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(438): No ports matched 'csi_rxd1_fifo_empty_i'
+WARNING(439): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:589] No clocks matched 'csi_rxc_i'
+WARNING(440): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:589] set_input_delay: No valid clock found for -clock
+WARNING(441): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:589] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(442): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(443): No ports matched 'csi_rxd1_fifo_empty_i'
+WARNING(444): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:590] No clocks matched 'csi_rxc_i'
+WARNING(445): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:590] set_input_delay: No valid clock found for -clock
+WARNING(446): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:590] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(447): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(448): No ports matched 'csi_rxd1_hs_i[*]'
+WARNING(449): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:591] No clocks matched 'csi_rxc_i'
+WARNING(450): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:591] set_input_delay: No valid clock found for -clock
+WARNING(451): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:591] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(452): No ports matched 'csi_rxc_i~CLKOUT~218~294'
+WARNING(453): No ports matched 'csi_rxd1_hs_i[*]'
+WARNING(454): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:592] No clocks matched 'csi_rxc_i'
+WARNING(455): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:592] set_input_delay: No valid clock found for -clock
+WARNING(456): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:592] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(457): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(458): No ports matched 'csi_rxd2_fifo_rd_o'
+WARNING(459): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:593] No clocks matched 'csi_rxc_i'
+WARNING(460): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:593] set_output_delay: No valid clock found for -clock
+WARNING(461): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:593] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(462): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(463): No ports matched 'csi_rxd2_fifo_rd_o'
+WARNING(464): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:594] No clocks matched 'csi_rxc_i'
+WARNING(465): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:594] set_output_delay: No valid clock found for -clock
+WARNING(466): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:594] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(467): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(468): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:595] No clocks matched 'csi_rxc_i'
+WARNING(469): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:595] set_output_delay: No valid clock found for -clock
+WARNING(470): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:595] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(471): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(472): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:596] No clocks matched 'csi_rxc_i'
+WARNING(473): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:596] set_output_delay: No valid clock found for -clock
+WARNING(474): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:596] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(475): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(476): No ports matched 'csi_rxd2_fifo_empty_i'
+WARNING(477): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:597] No clocks matched 'csi_rxc_i'
+WARNING(478): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:597] set_input_delay: No valid clock found for -clock
+WARNING(479): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:597] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(480): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(481): No ports matched 'csi_rxd2_fifo_empty_i'
+WARNING(482): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:598] No clocks matched 'csi_rxc_i'
+WARNING(483): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:598] set_input_delay: No valid clock found for -clock
+WARNING(484): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:598] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(485): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(486): No ports matched 'csi_rxd2_hs_i[*]'
+WARNING(487): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:599] No clocks matched 'csi_rxc_i'
+WARNING(488): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:599] set_input_delay: No valid clock found for -clock
+WARNING(489): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:599] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(490): No ports matched 'csi_rxc_i~CLKOUT~218~245'
+WARNING(491): No ports matched 'csi_rxd2_hs_i[*]'
+WARNING(492): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:600] No clocks matched 'csi_rxc_i'
+WARNING(493): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:600] set_input_delay: No valid clock found for -clock
+WARNING(494): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:600] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(495): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(496): No ports matched 'csi_rxd3_fifo_rd_o'
+WARNING(497): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:601] No clocks matched 'csi_rxc_i'
+WARNING(498): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:601] set_output_delay: No valid clock found for -clock
+WARNING(499): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:601] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(500): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(501): No ports matched 'csi_rxd3_fifo_rd_o'
+WARNING(502): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:602] No clocks matched 'csi_rxc_i'
+WARNING(503): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:602] set_output_delay: No valid clock found for -clock
+WARNING(504): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:602] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(505): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(506): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:603] No clocks matched 'csi_rxc_i'
+WARNING(507): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:603] set_output_delay: No valid clock found for -clock
+WARNING(508): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:603] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(509): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(510): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:604] No clocks matched 'csi_rxc_i'
+WARNING(511): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:604] set_output_delay: No valid clock found for -clock
+WARNING(512): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:604] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(513): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(514): No ports matched 'csi_rxd3_fifo_empty_i'
+WARNING(515): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:605] No clocks matched 'csi_rxc_i'
+WARNING(516): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:605] set_input_delay: No valid clock found for -clock
+WARNING(517): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:605] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(518): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(519): No ports matched 'csi_rxd3_fifo_empty_i'
+WARNING(520): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:606] No clocks matched 'csi_rxc_i'
+WARNING(521): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:606] set_input_delay: No valid clock found for -clock
+WARNING(522): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:606] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(523): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(524): No ports matched 'csi_rxd3_hs_i[*]'
+WARNING(525): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:607] No clocks matched 'csi_rxc_i'
+WARNING(526): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:607] set_input_delay: No valid clock found for -clock
+WARNING(527): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:607] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(528): No ports matched 'csi_rxc_i~CLKOUT~218~255'
+WARNING(529): No ports matched 'csi_rxd3_hs_i[*]'
+WARNING(530): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:608] No clocks matched 'csi_rxc_i'
+WARNING(531): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:608] set_input_delay: No valid clock found for -clock
+WARNING(532): [SDC C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc:608] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/Ti60_Demo.pt.sdc' parsed successfully.
+14 clocks (including virtual clocks), 37 inputs and 232 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+ tdqss_clk      2.065        484.262         (R-R)
+ core_clk       4.604        217.202         (R-R)
+ tac_clk        2.349        425.713         (R-R)
+ twd_clk        2.369        422.119         (R-R)
+ clk_sys        6.214        160.927         (R-R)
+ clk_pixel      5.620        177.936         (R-R)
+ cmos_pclk      4.802        208.247         (F-R)
+
+Geomean max period: 3.664
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   tdqss_clk        tdqss_clk           2.604           0.539            (R-R)
+   tdqss_clk        core_clk            2.604           1.963            (R-R)
+   core_clk         tdqss_clk           2.604           1.695            (R-R)
+   core_clk         core_clk            5.208           0.604            (R-R)
+   core_clk         tac_clk             2.604           1.937            (R-R)
+   core_clk         twd_clk             0.651           0.328            (R-R)
+   core_clk         clk_sys             4.500           3.424            (R-R)
+   tac_clk          core_clk            2.604           1.657            (R-R)
+   tac_clk          tac_clk             2.604           0.255            (R-R)
+   twd_clk          twd_clk             2.604           0.235            (R-R)
+   clk_sys          core_clk            4.500           3.238            (R-R)
+   clk_sys          clk_sys            10.417           4.203            (R-R)
+   clk_pixel        clk_pixel          13.441           7.821            (R-R)
+   cmos_pclk        cmos_pclk          10.000           7.985            (R-R)
+   cmos_pclk        cmos_pclk           5.000           2.599            (F-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   tdqss_clk        tdqss_clk           0.000           0.098            (R-R)
+   tdqss_clk        core_clk            0.000           0.070            (R-R)
+   core_clk         tdqss_clk           0.000           0.056            (R-R)
+   core_clk         core_clk            0.000           0.037            (R-R)
+   core_clk         tac_clk             0.000           0.092            (R-R)
+   core_clk         twd_clk            -1.953           1.994            (R-R)
+   tac_clk          core_clk            0.000           0.271            (R-R)
+   tac_clk          tac_clk             0.000           0.028            (R-R)
+   twd_clk          twd_clk             0.000           0.038            (R-R)
+   clk_sys          clk_sys             0.000           0.035            (R-R)
+   clk_pixel        clk_pixel           0.000           0.071            (R-R)
+   cmos_pclk        cmos_pclk           0.000           0.109            (R-R)
+   cmos_pclk        cmos_pclk          -5.000           6.603            (F-R)
+
+Write Timing Report to "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow\Ti60_Demo.timing.rpt" ...
+final timing analysis took 23.7235 seconds.
+	final timing analysis took 12.0156 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 785.18 MB, end = 875.008 MB, delta = 89.828 MB
+	final timing analysis peak virtual memory usage = 879.604 MB
+final timing analysis resident set memory usage: begin = 746.62 MB, end = 829.072 MB, delta = 82.452 MB
+	final timing analysis peak resident set memory usage = 833.356 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/outflow/Ti60_Demo.interface.csv".
+Finished writing bitstream file C:/Users/Administrator/Desktop/wujisuofang/Ti60F225_ADV7611_HDMI_480P1110/Ti60F225_ADV7611_HDMI_480P/Ti60_ADV7611_HDMI_640x480_EDID/work_pnr\Ti60_Demo.lbf.
+Bitstream generation took 6.58617 seconds.
+	Bitstream generation took 2.82812 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 875.008 MB, end = 1074.83 MB, delta = 199.82 MB
+	Bitstream generation peak virtual memory usage = 1137.02 MB
+Bitstream generation resident set memory usage: begin = 829.108 MB, end = 1024.5 MB, delta = 195.392 MB
+	Bitstream generation peak resident set memory usage = 1070.22 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 122.962 seconds.
+	The entire flow of EFX_PNR took 58.3906 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.624 MB, end = 553.976 MB, delta = 548.352 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 1137.02 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 13.16 MB, end = 530.452 MB, delta = 517.292 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 1070.22 MB

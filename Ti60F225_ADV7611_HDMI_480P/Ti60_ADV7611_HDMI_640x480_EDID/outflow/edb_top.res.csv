@@ -1,0 +1,22 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Sep 23, 2024 22:02:08
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        SRLs	        ADDs	        LUTs	    COMB4s	      RAMs	 DSP/MULTs
+edb_top:edb_top                                             	     878(0)	      28(0)	     100(0)	    1048(0)	     0(0)	    15(0)	     0(0)	
+ +la0:edb_la_top_renamed_due_excessive_length_1             	   792(530)	      28(0)	    100(43)	  1017(674)	     0(0)	    15(0)	     0(0)	
+  +axi_crc_i:edb_adbg_crc32                                 	     32(32)	       0(0)	       0(0)	     56(56)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b011000,PIPE=1)	     51(51)	       0(0)	       0(0)	     70(70)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       7(7)	       0(0)	       0(0)	       9(9)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[2].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       7(7)	       0(0)	       0(0)	       8(8)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[3].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       7(7)	       0(0)	       0(0)	       8(8)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[4].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       8(8)	       0(0)	       0(0)	       8(8)	     0(0)	     0(0)	     0(0)	
+  +trigger_tu:trigger_unit(WIDTH=32'b0101,PIPE=1)           	       1(1)	       0(0)	       0(0)	       3(3)	     0(0)	     0(0)	     0(0)	
+  +la_biu_inst:la_biu(CAPTURE_WIDTH=32'b011100,DATA_DEPTH=4096)	    149(60)	      28(0)	      57(0)	    181(72)	     0(0)	    15(0)	     0(0)	
+   +fifo_with_read_inst:fifo_with_read(DATA_WIDTH=32'b011101,ADDR_WIDTH=12)	     89(65)	     28(28)	     57(57)	    109(85)	     0(0)	    15(0)	     0(0)	
+    +transcode_write_addr:fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=12,CELL_ADDR_WIDTH=13)	     12(12)	       0(0)	       0(0)	     12(12)	     0(0)	     0(0)	     0(0)	
+    +transcode_read_addr:fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=12,CELL_ADDR_WIDTH=13)	     12(12)	       0(0)	       0(0)	     12(12)	     0(0)	     0(0)	     0(0)	
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram(DATA_WIDTH=32'b011101,ADDR_WIDTH=12,RAM_INIT_FILE="")	       0(0)	       0(0)	       0(0)	       0(0)	     0(0)	   15(15)	     0(0)	
+ +debug_hub_inst:debug_hub                                  	     86(86)	       0(0)	       0(0)	     31(31)	     0(0)	     0(0)	     0(0)	
